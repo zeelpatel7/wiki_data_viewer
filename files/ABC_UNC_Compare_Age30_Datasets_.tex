@@ -1,0 +1,96 @@
+\documentclass[11pt]{article}
+\topmargin= -0.4in
+\textheight = +8.9in
+\oddsidemargin = 0.05in
+\evensidemargin = 0.05in
+\textwidth = 6.5in
+\usepackage{amssymb}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{[ABC] Compare Age 30 datasets}
+\addcontentsline{toc}{section}{Compare Age 30 datasets}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent - Compare ``heckman04.dta" in ``ABC/Age 30/Data"\footnote{/mnt/ide0/share/klmshare/Data\_Central/Consortium/ABC/ABC/ABC/Age 30/Data/heckman04.dta} folder in Athens and ``from-Elizabeth Gunn Data (received on Sept. 2, 2010 by Gabriella Conti)".\\
+- This includes simple descriptions of ``from-Elizabeth Gunn Data (received on Sept. 2, 2010 by Gabriella Conti)".\\
+- Oct. 11, 2010\\
+- By Jongwook Lee (Email: econarchy@uchicago.edu)\\
+
+\begin{itemize}
+    \item {\bf \underline {Conclusion}}: Variables in ``heckman04.dta" consist of three parts - (1) some variables in ``s30\_d\_01.dta" (2) some variables in ``s30an\_13.dta" (3) some variables not in ``from-Elizabeth Gunn Data (received on Sept. 2, 2010 by Gabriella Conti)". Same variables in both datasets provide exactly the same information.\\
+    \item {\bf heckman04.dta}: ABC Age 30 follow-up data (obs: 101 / vars: 470)
+    \item {\bf from-Elizabeth Gunn Data (received on Sept. 2, 2010 by Gabriella Conti)}: ABC Age 30 follow-up data
+    \begin{itemize}
+        \item asr\_21.dta: Adult Self Report (obs: 101 / vars: 307)
+        \item isel\_10.dta: Interpersonal Support Evaluation List (obs: 101 / vars: 18)
+        \item jbst\_11.dta: Job Satisfaction (obs: 92 / vars: 51)
+        \item pmsc\_10.dta: Pearlin Mastery Scale (obs: 101 / vars: 14)
+        \item risk30\_11.dta: Risk Tasking Survey (obs: 98 / vars: 14)
+        \item s30\_d\_01.dta: Subject Interview Data (obs: 101 / var: 4249)
+        \item s30an\_13.dta: Collapsed Subject Interview Data (obs: 101 / vars: 66)
+        \item tad\_13.dta: Tabacco, Drug, and Alcohol (obs: 100 / vars: 21)\\
+    \end{itemize}
+\end{itemize}
+
+\begin{enumerate}
+    \item {\bf asr\_21.dta}
+    \begin{itemize}
+        \item Not in ``heckman04.dta"
+        \item obs: 101 / vars: 307\\
+    \end{itemize}
+    \item {\bf isel\_10.dta}
+    \begin{itemize}
+        \item Not in ``heckman04.dta"
+        \item obs: 101 / vars: 18
+        \item There are 4 categorical answers (1-4), but it's not clear what each number means.
+        \item In general, ISEL has 4 categorical answers - definitely false/probably false/probably true/definitely true
+        \item The ISEL was developed by Cohen, Mermelstein, Kmack and Hoberman (1985) and provides a global measure of perceived social support across four domains (belonging, self-esteem, appraisal, and tangible help). Respondents are asked to check ``probably true�� or ``probably false�� to twelve statements such as ``There is someone I can turn to for advice about handling problems with my family�� and ``When I need suggestions on how to deal with a personal problem, I know someone I can turn to.�� The ISEL has demonstrated reliability and validity across social support studies using a diverse participant pool (Cohen \& Hoberman, 1983; Cohen \& Wills, 1985).\\
+    \end{itemize}
+    \item {\bf jbst\_11.dta}
+    \begin{itemize}
+        \item Not in ``heckman04.dta"
+        \item obs: 92 / vars: 51
+        \item There are 6 categorical answers (1-6) in each question, but it's not clear what each category means.\\
+    \end{itemize}
+    \item {\bf pmsc\_10.dta}
+    \begin{itemize}
+        \item Not in ``heckman04.dta"
+        \item obs: 101 / vars: 14
+        \item There are 5 categorical answers (1-5) in each question, but it's not clear what each category means.
+        \item The Pearlin Mastery Scale is a measure of perceived control of life events. The instrument measures the extent to which one regards one's life chances as being under one's own control in contrast to being fatalistically ruled (Pearlin \& Schooler, 1978). The measure consists of seven items addressing self-attitude. Items are of the following type: I have little control over the things that happen to me; There is really no way I can solve some of the problems I have; There is little I can do to change many of the important things in my life. Participants were asked to rate on a 5-point scale (from 1=not at all accurate to 5=completely accurate) the accuracy of each statement. A total is computed by summing the ratings on all items. The possible scores on self-attitude range from 1 (no control, chance) to 35 (one's own control). High scores signify that the individual perceives him or herself in control of his or her life. - (Dante Cicchetti and Sheree L. Toth, Adolescence: opportunities and challenges, p.319)
+        \item The Pearlin Mastery Scale is a measure of self-concept and references the extent to which individuals perceive themselves in control of forces that significantly impact their lives. It consists of a 7-item scale developed by Pearlin, et al. (1981). Each item (R38942.-R38948.) is a statement regarding the respondent's perception of self, and respondents are asked how strongly they agree or disagree with each statement. Four response categories are allowed: (1) strongly disagree; (2) disagree; (3) agree; and (4) strongly agree. The scale is constructed by adding together the responses from each item; thus, a range of 4 to 16 is possible. To obtain a positively oriented scale (that is, a higher score represents the perception of greater mastery over one's environment), negatively phrased questions (R38942., R38943., R38944., R38946., R38948.) should have their response sets reverse coded.\\
+    \end{itemize}
+    \item {\bf risk30\_11.dta}
+    \begin{itemize}
+        \item Not in ``heckman04.dta"
+        \item obs: 98 / vars: 14\\
+    \end{itemize}
+    \item {\bf s30\_d\_01.dta}
+    \begin{itemize}
+        \item Some variables (include ``int\_id" and ``id") in ``s30\_d\_01.dta`` are in ``heckman04.dta" but not all.
+        \item Some variables in ``heckman04.dta" are not in ``s30\_d\_01.dta".
+        \item Same variables in both datasets share same information.
+        \item obs: 101 / var: 4249\\
+    \end{itemize}
+    \item {\bf s30an\_13.dta}
+    \begin{itemize}
+        \item 8 variables (include ``int\_id" and ``id") in ``s30an\_13.dta" are in ``heckman04.dta".
+        \item Same variables in both datasets share same information.
+        \item obs: 101 / vars: 66\\
+    \end{itemize}
+    \item {\bf tad\_13.dta}
+    \begin{itemize}
+        \item Not in ``heckman04.dta"
+        \item obs: 100 / vars: 21
+        \item Includes categorical data, but it's not clear what each category means.
+    \end{itemize}
+\end{enumerate}
+\end{document}
+
+
+
+
+
+
+
+

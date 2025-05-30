@@ -1,0 +1,46 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf390
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 Instructions for Jacob\
+This version: AH, Sep 30 2013\
+\
+Hi Jacob.\
+I propose the following:\
+\
+Stage 1:Test Documentation database\
+\
+It should contain the following entries:\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 - Name of Assessment (example: Woodcock-Johnson Achievement Test or simply WJ)\
+- Version of Assessment (example: I, R, II or III are the versions of WJ)\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 - Questionnaire (Q) filename [original interview document]\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 - Scale Construction (S) filename [how to create scales in data]\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 - Standardization (T) filename [how was the instrument standardized]\
+- Dictionary (D) filename [document linking variable names in data and in questionnaire]\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 - Dictionary of values (DV) filename [document linking variable values in data and in questionnaire]\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \
+This is what I can think of now, but we might want more in the future. Notice that we basically have two types of documentation: the ones for assessments (WJ, SB, PARI, CBCL\'85) and the ones for Surveys (like SINT or PINT). Check an example for both of them out, so tomorrow we can discuss if this framework applies to both of them.\
+\
+Stage 2 (requires the use of data): Test Applications database\
+\
+It should contain the following entries:\
+- Name of Assessment (example: Woodcock-Johnson Achievement Test or simply WJ)\
+- Version of Assessment (example: I, R, II or III are the versions of WJ)\
+- Program (example: Perry)\
+- Age of application in months (only if original is in months)\
+- Age of application in years (for all tests)\
+- Dataset location: total scores (leave empty by now)\
+- Name of variables:  (leave empty by now)\
+- Dataset location: items [only if different] (leave empty by now)\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 - Name of variables:  (leave empty by now)\
+\
+I am still unsure about putting subscales in this database, as it could make the workload quasi-infinite. Let's see how we do without them first.}

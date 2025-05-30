@@ -1,0 +1,1983 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+       log:  {res}\\Athens.uchicago.edu\klmshare\Brian\Abecedarian\codebook.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}18 Aug 2005, 12:42:49
+{txt}
+{com}. codebook
+
+{txt}{hline}
+{res}subject{right:Unique Id Number}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}5001{txt},{res}6216{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}176{col 51}{txt}missing .:  {res}0{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 5593.34
+{txt}{col 15}std. dev:{res}{col 26} 413.922
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}    5111{col 37}  5214.5{col 47}  5502.5{col 57}  6021.5{col 67}    6125
+
+{txt}{hline}
+{res}dc_trt{right:Day Care Group   1=Treatment  0=Control}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}0{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}0{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}    103{col 33}0
+{col 24}     73{col 33}1
+
+{txt}{hline}
+{res}sa_trt{right:School Age Group 1=Treatment  0=Control}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}0{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}15{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}     70{col 33}0
+{col 24}     91{col 33}1
+{col 24}     15{col 33}.
+
+{txt}{hline}
+{res}hv_trt{right:Home Visit Group 1=Treatment  0=Control}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}0{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}0{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}    134{col 33}0
+{col 24}     42{col 33}1
+
+{txt}{hline}
+{res}study{right:Source Of Subjects Abc=Abecedarian Or Care}
+{txt}{hline}
+
+{col 19}type:  string ({res}str4{txt})
+
+{col 10}unique values:  {res}2{col 51}{txt}missing "":  {res}0{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}    111{col 33}"ABC"
+{col 24}     65{col 33}"CARE"
+
+{txt}{hline}
+{res}sex{right:Gender Of Child (M=Male F=Female)}
+{txt}{hline}
+
+{col 19}type:  string ({res}str1{txt})
+
+{col 10}unique values:  {res}2{col 51}{txt}missing "":  {res}0{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}     84{col 33}"F"
+{col 24}     92{col 33}"M"
+
+{txt}{hline}
+{res}ageentry{right:Child Age In Weeks When Entered Program}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}21{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}20{col 51}{txt}missing .:  {res}2{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 7.91379
+{txt}{col 15}std. dev:{res}{col 26} 5.47285
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}       1{col 37}       4{col 47}     6.5{col 57}      11{col 67}      17
+
+{txt}{hline}
+{res}momsage{right:Moms Age At Birth 1 <=17 Years 2 18 Or 19  3>=20}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}3{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}     45{col 33}1
+{col 24}     47{col 33}2
+{col 24}     82{col 33}3
+{col 24}      2{col 33}.
+
+{txt}{hline}
+{res}momwais0{right:Bio Mother Wais Full-Scale Score Birth}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}61{txt},{res}110{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}40{col 51}{txt}missing .:  {res}0{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 85.6761
+{txt}{col 15}std. dev:{res}{col 26} 10.2991
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      73{col 37}      79{col 47}      85{col 57}      93{col 67}      98
+
+{txt}{hline}
+{res}mvrbiq0{right:Bio Mother Wais Verbal Iq Score At Subject Birth}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}63{txt},{res}111{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}43{col 51}{txt}missing .:  {res}0{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 85.4773
+{txt}{col 15}std. dev:{res}{col 26} 10.5943
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      72{col 37}      78{col 47}      85{col 57}      92{col 67}     101
+
+{txt}{hline}
+{res}mprfiq0{right:Bio Mother Wais Performance Iq Score At Subject Birth}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}60{txt},{res}112{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}44{col 51}{txt}missing .:  {res}0{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 88.2045
+{txt}{col 15}std. dev:{res}{col 26} 10.9999
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      73{col 37}      82{col 47}      89{col 57}    94.5{col 67}     102
+
+{txt}{hline}
+{res}momed0{right:Mother Education/Last Grade Completed At Subject Birth}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}7{txt},{res}13{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}5{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}      8{col 33}7
+{col 24}     16{col 33}8
+{col 24}     19{col 33}9
+{col 24}     35{col 33}10
+{col 24}     24{col 33}11
+{col 24}     60{col 33}12
+{col 24}      9{col 33}13
+{col 24}      5{col 33}.
+
+{txt}{hline}
+{res}gestage{right:Gestation Age In Weeks}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}35{txt},{res}43{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}9{col 51}{txt}missing .:  {res}10{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}     12{col 33}35
+{col 24}      5{col 33}36
+{col 24}     11{col 33}37
+{col 24}     20{col 33}38
+{col 24}     14{col 33}39
+{col 24}     46{col 33}40
+{col 24}     26{col 33}41
+{col 24}     22{col 33}42
+{col 24}     10{col 33}43
+{col 24}     10{col 33}.
+
+{txt}{hline}
+{res}hri0{right:High Risk Index  Birth}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}13{txt},{res}32{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}20{col 51}{txt}missing .:  {res}2{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 20.5345
+{txt}{col 15}std. dev:{res}{col 26} 5.37458
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      15{col 37}      16{col 47}    19.5{col 57}      24{col 67}      29
+
+{txt}{hline}
+{res}father0{right:Father Live In Home  Birth}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}0{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}     46{col 33}1
+{col 24}    130{col 33}2
+
+{txt}{hline}
+{res}apgar5{right:Apgar Score-5 Min}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}6{txt},{res}10{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}19{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}      7{col 33}6
+{col 24}      3{col 33}7
+{col 24}     18{col 33}8
+{col 24}     97{col 33}9
+{col 24}     32{col 33}10
+{col 24}     19{col 33}.
+
+{txt}{hline}
+{res}daycar42{right:No Of Months In Day Care  42 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}0{txt},{res}12{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}10{col 51}{txt}missing .:  {res}22{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 8.55195
+{txt}{col 15}std. dev:{res}{col 26} 4.99286
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}       0{col 37}       3{col 47}      12{col 57}      12{col 67}      12
+
+{txt}{hline}
+{res}daycar54{right:No Of Months In Day Care  54 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}0{txt},{res}12{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}9{col 51}{txt}missing .:  {res}26{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}     23{col 33}0
+{col 24}      2{col 33}2
+{col 24}      2{col 33}4
+{col 24}      1{col 33}7
+{col 24}      2{col 33}8
+{col 24}      4{col 33}9
+{col 24}      1{col 33}10
+{col 24}      1{col 33}11
+{col 24}    114{col 33}12
+{col 24}     26{col 33}.
+
+{txt}{hline}
+{res}retnyr7{right:Ever Rec'd IEP Basic Services Through Scyr 7}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:noyes}
+
+{col 18}range:  [{res}0{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}13{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 24}{res}    100{col 33}       0{col 43}{txt}No
+{col 24}{res}     63{col 33}       1{col 43}{txt}Yes
+{col 24}{res}     13{col 33}       .{col 43}
+
+{txt}{hline}
+{res}iepyr7{right:Ever Received Iep-Based Services Through Scyr 7 1=Yes 0=No}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}0{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}17{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}    103{col 33}0
+{col 24}     56{col 33}1
+{col 24}     17{col 33}.
+
+{txt}{hline}
+{res}retnyr10{right:Ever Rec'd IEP Basic Services Through Scyr 10}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:noyes}
+
+{col 18}range:  [{res}0{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}73{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 24}{res}     56{col 33}       0{col 43}{txt}No
+{col 24}{res}     47{col 33}       1{col 43}{txt}Yes
+{col 24}{res}     73{col 33}       .{col 43}
+
+{txt}{hline}
+{res}iepyr10{right:Ever Received Iep-Based Services Through Scyr 10 1=Yes 0=N}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}0{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}73{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}     63{col 33}0
+{col 24}     40{col 33}1
+{col 24}     73{col 33}.
+
+{txt}{hline}
+{res}hh4score{right:Hollinghead 4-Factor Index Score  Birth}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}11{txt},{res}29{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}16{col 51}{txt}missing .:  {res}43{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 19.4436
+{txt}{col 15}std. dev:{res}{col 26}  5.5588
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      13{col 37}      14{col 47}      19{col 57}      22{col 67}      29
+
+{txt}{hline}
+{res}mwarm6{right:Home Stim/Maternal Warmth 6 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}2{txt},{res}10{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}9{col 51}{txt}missing .:  {res}9{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}      6{col 33}2
+{col 24}      5{col 33}3
+{col 24}     10{col 33}4
+{col 24}     24{col 33}5
+{col 24}     18{col 33}6
+{col 24}     28{col 33}7
+{col 24}     22{col 33}8
+{col 24}     37{col 33}9
+{col 24}     17{col 33}10
+{col 24}      9{col 33}.
+
+{txt}{hline}
+{res}mwarm18{right:Home Stim/Maternal Warmth 18 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}2{txt},{res}10{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}9{col 51}{txt}missing .:  {res}16{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}      4{col 33}2
+{col 24}      7{col 33}3
+{col 24}      6{col 33}4
+{col 24}     15{col 33}5
+{col 24}     15{col 33}6
+{col 24}     23{col 33}7
+{col 24}     31{col 33}8
+{col 24}     31{col 33}9
+{col 24}     28{col 33}10
+{col 24}     16{col 33}.
+
+{txt}{hline}
+{res}mwarm30{right:Home Stim/Maternal Warmth 30 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}3{txt},{res}10{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}8{col 51}{txt}missing .:  {res}18{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}      5{col 33}3
+{col 24}      7{col 33}4
+{col 24}     11{col 33}5
+{col 24}     19{col 33}6
+{col 24}     31{col 33}7
+{col 24}     42{col 33}8
+{col 24}     33{col 33}9
+{col 24}     10{col 33}10
+{col 24}     18{col 33}.
+
+{txt}{hline}
+{res}oppvar6{right:Home Stim/Opportunity For Variety 6 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}4{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}8{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}     59{col 33}1
+{col 24}     62{col 33}2
+{col 24}     40{col 33}3
+{col 24}      7{col 33}4
+{col 24}      8{col 33}.
+
+{txt}{hline}
+{res}oppvar18{right:Home Stim/Opportunity For Variety 18 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}16{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}     32{col 33}1
+{col 24}     40{col 33}2
+{col 24}     46{col 33}3
+{col 24}     22{col 33}4
+{col 24}     20{col 33}5
+{col 24}     16{col 33}.
+
+{txt}{hline}
+{res}oppvar30{right:Home Stim/Opportunty For Variety 30 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}1{txt},{res}5{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}5{col 51}{txt}missing .:  {res}17{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}     18{col 33}1
+{col 24}     38{col 33}2
+{col 24}     52{col 33}3
+{col 24}     26{col 33}4
+{col 24}     25{col 33}5
+{col 24}     17{col 33}.
+
+{txt}{hline}
+{res}orgenv6{right:Home Stim/Organization Of Environment 6 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}3{txt},{res}6{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}71{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}     13{col 33}3
+{col 24}     26{col 33}4
+{col 24}     36{col 33}5
+{col 24}     30{col 33}6
+{col 24}     71{col 33}.
+
+{txt}{hline}
+{res}orgenv18{right:Home Stim/Organization Of Environment 18 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}3{txt},{res}6{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}16{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}     11{col 33}3
+{col 24}     18{col 33}4
+{col 24}     62{col 33}5
+{col 24}     69{col 33}6
+{col 24}     16{col 33}.
+
+{txt}{hline}
+{res}orgenv30{right:Home Stim/Organization Of Environment 30 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}3{txt},{res}6{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}4{col 51}{txt}missing .:  {res}17{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}      7{col 33}3
+{col 24}     25{col 33}4
+{col 24}     41{col 33}5
+{col 24}     86{col 33}6
+{col 24}     17{col 33}.
+
+{txt}{hline}
+{res}minvol6{right:Home Stim/Maternal Involvement W/Child 6 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}0{txt},{res}6{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}8{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}      6{col 33}0
+{col 24}     10{col 33}1
+{col 24}     28{col 33}2
+{col 24}     46{col 33}3
+{col 24}     38{col 33}4
+{col 24}     25{col 33}5
+{col 24}     15{col 33}6
+{col 24}      8{col 33}.
+
+{txt}{hline}
+{res}minvol18{right:Home Stim/Maternal Involvement W/Child E18 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}0{txt},{res}6{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}16{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}      6{col 33}0
+{col 24}     15{col 33}1
+{col 24}     27{col 33}2
+{col 24}     35{col 33}3
+{col 24}     35{col 33}4
+{col 24}     26{col 33}5
+{col 24}     16{col 33}6
+{col 24}     16{col 33}.
+
+{txt}{hline}
+{res}minvol30{right:Home Stim/Maternal Involvement W/Child 30 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}0{txt},{res}6{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}7{col 51}{txt}missing .:  {res}17{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}      7{col 33}0
+{col 24}     17{col 33}1
+{col 24}     27{col 33}2
+{col 24}     21{col 33}3
+{col 24}     44{col 33}4
+{col 24}     27{col 33}5
+{col 24}     16{col 33}6
+{col 24}     17{col 33}.
+
+{txt}{hline}
+{res}hstot6{right:Home Stimulation Total Score 6  Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}16{txt},{res}37{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}22{col 51}{txt}missing .:  {res}9{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 27.6826
+{txt}{col 15}std. dev:{res}{col 26} 5.40536
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      21{col 37}      24{col 47}      28{col 57}      32{col 67}      35
+
+{txt}{hline}
+{res}hstot18{right:Home Stimulation Total Score 18 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}17{txt},{res}40{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}24{col 51}{txt}missing .:  {res}16{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26}    29.8
+{txt}{col 15}std. dev:{res}{col 26} 5.75364
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      21{col 37}      26{col 47}    30.5{col 57}      34{col 67}      37
+
+{txt}{hline}
+{res}hstot30{right:Home Stimulation Total Score 30 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}18{txt},{res}40{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}22{col 51}{txt}missing .:  {res}18{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 30.1962
+{txt}{col 15}std. dev:{res}{col 26} 5.63142
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      22{col 37}      26{col 47}      30{col 57}      35{col 67}      37
+
+{txt}{hline}
+{res}hstot42{right:Home Stimulation Total Score 42 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}33{txt},{res}72{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}37{col 51}{txt}missing .:  {res}21{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26}  56.471
+{txt}{col 15}std. dev:{res}{col 26} 9.31296
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      43{col 37}      50{col 47}      58{col 57}      64{col 67}      67
+
+{txt}{hline}
+{res}hstot54{right:Home Stimulation Total Score 54 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}35{txt},{res}73{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}34{col 51}{txt}missing .:  {res}27{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 59.0067
+{txt}{col 15}std. dev:{res}{col 26} 9.06023
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      46{col 37}      54{col 47}      62{col 57}      65{col 67}      69
+
+{txt}{hline}
+{res}hstoty3{right:Home Stimulation Total Score Scyr 3}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}52{txt},{res}81{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}30{col 51}{txt}missing .:  {res}65{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 66.4234
+{txt}{col 15}std. dev:{res}{col 26} 7.54086
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      57{col 37}      60{col 47}      67{col 57}      71{col 67}      77
+
+{txt}{hline}
+{res}mdi3{right:Bayley Mdi 3 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}74{txt},{res}119{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}28{col 51}{txt}missing .:  {res}69{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26}  95.271
+{txt}{col 15}std. dev:{res}{col 26} 10.9274
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      82{col 37}      88{col 47}      96{col 57}     102{col 67}     110
+
+{txt}{hline}
+{res}mdi9{right:Bayley Mdi 9 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}83{txt},{res}132{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}22{col 51}{txt}missing .:  {res}72{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 109.808
+{txt}{col 15}std. dev:{res}{col 26} 13.4005
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      93{col 37}      99{col 47}   112.5{col 57}     120{col 67}     126
+
+{txt}{hline}
+{res}mdi6{right:Bayley Mdi 6 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}70{txt},{res}139{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}33{col 51}{txt}missing .:  {res}7{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 105.296
+{txt}{col 15}std. dev:{res}{col 26} 14.8731
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      89{col 37}      96{col 47}     102{col 57}     116{col 67}     124
+
+{txt}{hline}
+{res}mdi12{right:Bayley Mdi 12 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}76{txt},{res}134{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}36{col 51}{txt}missing .:  {res}9{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 109.467
+{txt}{col 15}std. dev:{res}{col 26} 14.1523
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      91{col 37}     100{col 47}     112{col 57}     119{col 67}     128
+
+{txt}{hline}
+{res}mdi18{right:Bayley Mdi 18 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}66{txt},{res}134{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}42{col 51}{txt}missing .:  {res}14{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 100.586
+{txt}{col 15}std. dev:{res}{col 26} 15.7562
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      81{col 37}      90{col 47}     100{col 57}     109{col 67}     123
+
+{txt}{hline}
+{res}sbiq24{right:Stanford Binet Iq Score 24 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}68{txt},{res}116{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}26{col 51}{txt}missing .:  {res}14{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 90.3457
+{txt}{col 15}std. dev:{res}{col 26} 12.3078
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      75{col 37}      81{col 47}      88{col 57}     100{col 67}     108
+
+{txt}{hline}
+{res}sbiq36{right:Stanford Binet Iq Score 36 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}64{txt},{res}122{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}35{col 51}{txt}missing .:  {res}17{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 93.2138
+{txt}{col 15}std. dev:{res}{col 26} 14.9083
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      72{col 37}      81{col 47}      93{col 57}     105{col 67}     113
+
+{txt}{hline}
+{res}sbiq48{right:Stanford Binet Iq Score 48 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}68{txt},{res}120{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}31{col 51}{txt}missing .:  {res}18{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 94.7785
+{txt}{col 15}std. dev:{res}{col 26} 12.1008
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      78{col 37}      88{col 47}      96{col 57}     104{col 67}     110
+
+{txt}{hline}
+{res}mc30vrb{right:Mccarthy Scale Index/Verbal 30 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}30{txt},{res}66{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}27{col 51}{txt}missing .:  {res}16{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 48.1125
+{txt}{col 15}std. dev:{res}{col 26} 8.47415
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}    36.5{col 37}      41{col 47}      48{col 57}      55{col 67}      59
+
+{txt}{hline}
+{res}mc42gci{right:Mccarthy Scale Index/General Cognitive 42 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}72{txt},{res}123{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}47{col 51}{txt}missing .:  {res}19{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 97.9172
+{txt}{col 15}std. dev:{res}{col 26} 12.3905
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      81{col 37}      89{col 47}      99{col 57}     106{col 67}     114
+
+{txt}{hline}
+{res}mc42vrb{right:Mccarthy Scale Index/Verbal 42 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}35{txt},{res}65{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}31{col 51}{txt}missing .:  {res}19{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 49.8854
+{txt}{col 15}std. dev:{res}{col 26}  7.3301
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      39{col 37}      44{col 47}      50{col 57}      55{col 67}      60
+
+{txt}{hline}
+{res}mc54gci{right:Mccarthy Scale Index/General Cognitive 54 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}67{txt},{res}118{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}42{col 51}{txt}missing .:  {res}21{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 95.8452
+{txt}{col 15}std. dev:{res}{col 26} 12.5632
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      78{col 37}      88{col 47}      96{col 57}     107{col 67}     111
+
+{txt}{hline}
+{res}mc54vrb{right:Mccarthy Scale Index/Verbal 54 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}33{txt},{res}64{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}30{col 51}{txt}missing .:  {res}21{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 50.5613
+{txt}{col 15}std. dev:{res}{col 26} 8.68727
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      38{col 37}      45{col 47}      52{col 57}      58{col 67}      62
+
+{txt}{hline}
+{res}wppsi60{right:Wppsi Iq Score 60 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}71{txt},{res}125{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}48{col 51}{txt}missing .:  {res}22{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 97.6234
+{txt}{col 15}std. dev:{res}{col 26} 12.8872
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      79{col 37}      89{col 47}      97{col 57}     106{col 67}     114
+
+{txt}{hline}
+{res}wppsi60v{right:Wppsi Verbal Iq Score 60 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}72{txt},{res}122{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}40{col 51}{txt}missing .:  {res}22{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 96.8247
+{txt}{col 15}std. dev:{res}{col 26} 12.8002
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      79{col 37}      87{col 47}      96{col 57}     106{col 67}     115
+
+{txt}{hline}
+{res}wppsi60p{right:Wppsi Performance Iq Score 60 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}76{txt},{res}130{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}38{col 51}{txt}missing .:  {res}22{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 99.1364
+{txt}{col 15}std. dev:{res}{col 26} 12.6471
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      82{col 37}      91{col 47}      99{col 57}     108{col 67}     115
+
+{txt}{hline}
+{res}wiscr78{right:Wisc-R Full Scale Score 78 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}float{txt})
+
+{col 18}range:  [{res}70{txt},{res}126.5{txt}]{col 55}units:  {res}.1
+{col 10}{txt}unique values:  {res}45{col 51}{txt}missing .:  {res}26{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 96.0367
+{txt}{col 15}std. dev:{res}{col 26} 12.3404
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      78{col 37}      89{col 47}      97{col 57}     104{col 67}   109.5
+
+{txt}{hline}
+{res}wiscr78v{right:Wisc-R Verbal 78 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}57{txt},{res}125{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}42{col 51}{txt}missing .:  {res}26{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26}   95.42
+{txt}{col 15}std. dev:{res}{col 26} 13.0868
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      79{col 37}      88{col 47}    97.5{col 57}     103{col 67}   108.5
+
+{txt}{hline}
+{res}wiscr78p{right:Wisc-R Performance 78 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}float{txt})
+
+{col 18}range:  [{res}56.5{txt},{res}126{txt}]{col 55}units:  {res}.1
+{col 10}{txt}unique values:  {res}45{col 51}{txt}missing .:  {res}26{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 95.5033
+{txt}{col 15}std. dev:{res}{col 26} 14.9131
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      76{col 37}      88{col 47}      96{col 57}     106{col 67}     113
+
+{txt}{hline}
+{res}wiscr96{right:Wisc-R Full Scale Score 96 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}float{txt})
+
+{col 18}range:  [{res}62.5{txt},{res}129{txt}]{col 55}units:  {res}.1
+{col 10}{txt}unique values:  {res}42{col 51}{txt}missing .:  {res}26{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 94.7833
+{txt}{col 15}std. dev:{res}{col 26}  12.246
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      81{col 37}      86{col 47}      96{col 57}     102{col 67}   109.5
+
+{txt}{hline}
+{res}wiscr96v{right:Wisc-R Verbal 96 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}float{txt})
+
+{col 18}range:  [{res}61{txt},{res}123.5{txt}]{col 55}units:  {res}.1
+{col 10}{txt}unique values:  {res}43{col 51}{txt}missing .:  {res}26{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 93.8033
+{txt}{col 15}std. dev:{res}{col 26} 12.7123
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}    78.5{col 37}      87{col 47}    94.5{col 57}     102{col 67}     109
+
+{txt}{hline}
+{res}wiscr96p{right:Wisc-R Performance 96 Mos}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}float{txt})
+
+{col 18}range:  [{res}71.5{txt},{res}130.5{txt}]{col 55}units:  {res}.1
+{col 10}{txt}unique values:  {res}39{col 51}{txt}missing .:  {res}26{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 97.0733
+{txt}{col 15}std. dev:{res}{col 26} 12.5905
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      81{col 37}      88{col 47}      96{col 57}     106{col 67}     112
+
+{txt}{hline}
+{res}wiscry7{right:Wisc-R Full Scale Iq Score  Scyr 7}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}71{txt},{res}115{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}42{col 51}{txt}missing .:  {res}14{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 92.6975
+{txt}{col 15}std. dev:{res}{col 26} 10.5948
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      79{col 37}      85{col 47}      92{col 57}     100{col 67}     108
+
+{txt}{hline}
+{res}wiscry7v{right:Wisc-R Verbal Iq Score  Scyr 7}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}68{txt},{res}115{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}37{col 51}{txt}missing .:  {res}14{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 91.9753
+{txt}{col 15}std. dev:{res}{col 26} 10.8879
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      77{col 37}      86{col 47}      92{col 57}      98{col 67}     107
+
+{txt}{hline}
+{res}wiscry7p{right:Wisc-R Performance Iq Score  Scyr 7}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}72{txt},{res}121{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}35{col 51}{txt}missing .:  {res}14{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 95.1605
+{txt}{col 15}std. dev:{res}{col 26} 12.2834
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      80{col 37}      87{col 47}      95{col 57}     104{col 67}     114
+
+{txt}{hline}
+{res}wiscr10{right:Wisc-R Full Scale Iq Score  Scyr 10}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}76{txt},{res}112{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}30{col 51}{txt}missing .:  {res}72{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 93.2308
+{txt}{col 15}std. dev:{res}{col 26} 10.3034
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      80{col 37}      85{col 47}      91{col 57}     101{col 67}     106
+
+{txt}{hline}
+{res}wiscr10v{right:Wisc-R Verbal Iq Score  Scyr 10}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}72{txt},{res}107{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}30{col 51}{txt}missing .:  {res}72{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26}    89.5
+{txt}{col 15}std. dev:{res}{col 26} 10.2966
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      75{col 37}      81{col 47}      90{col 57}    97.5{col 67}     102
+
+{txt}{hline}
+{res}wiscr10p{right:Wisc-R Performance Iq Score  Scyr 10}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}78{txt},{res}121{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}30{col 51}{txt}missing .:  {res}72{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 98.5096
+{txt}{col 15}std. dev:{res}{col 26} 12.4018
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      82{col 37}    87.5{col 47}     100{col 57}     108{col 67}     117
+
+{txt}{hline}
+{res}wjkfzard{right:W-J Age Standard Score-Reading  Scyr 1 Fall}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}77{txt},{res}112{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}25{col 51}{txt}missing .:  {res}118{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 96.3966
+{txt}{col 15}std. dev:{res}{col 26} 10.5514
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      81{col 37}      89{col 47}      95{col 57}     107{col 67}     110
+
+{txt}{hline}
+{res}wjkfzama{right:W-J Age Standard Score-Math  Scyr 1 Fall}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}77{txt},{res}109{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}27{col 51}{txt}missing .:  {res}118{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 92.1034
+{txt}{col 15}std. dev:{res}{col 26} 8.19647
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      81{col 37}      87{col 47}    90.5{col 57}      97{col 67}     104
+
+{txt}{hline}
+{res}wjkfzawl{right:W-J Age Standard Score-Written Lang  Scyr 1 Fall}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}66{txt},{res}121{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}26{col 51}{txt}missing .:  {res}118{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 98.3966
+{txt}{col 15}std. dev:{res}{col 26} 16.4487
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      70{col 37}      88{col 47}      99{col 57}     113{col 67}     118
+
+{txt}{hline}
+{res}wjkfzakn{right:W-J Age Standard Score-Knowledge  Scyr 1 Fall}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}71{txt},{res}114{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}28{col 51}{txt}missing .:  {res}118{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 90.1207
+{txt}{col 15}std. dev:{res}{col 26} 10.6558
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      75{col 37}      84{col 47}    88.5{col 57}      96{col 67}     107
+
+{txt}{hline}
+{res}wjkfzask{right:W-J Age Standard Score-Skills  Scyr 1 Fall}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}65{txt},{res}116{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}30{col 51}{txt}missing .:  {res}118{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 93.7759
+{txt}{col 15}std. dev:{res}{col 26} 15.8325
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      67{col 37}      84{col 47}    96.5{col 57}     106{col 67}     116
+
+{txt}{hline}
+{res}wjkszard{right:W-J Age Standard Score-Reading  Scyr 1 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}82{txt},{res}125{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}25{col 51}{txt}missing .:  {res}117{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 99.4068
+{txt}{col 15}std. dev:{res}{col 26} 11.1187
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      84{col 37}      91{col 47}     100{col 57}     106{col 67}     114
+
+{txt}{hline}
+{res}wjkszama{right:W-J Age Standard Score-Math  Scyr 1 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}72{txt},{res}129{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}29{col 51}{txt}missing .:  {res}117{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 94.0678
+{txt}{col 15}std. dev:{res}{col 26} 14.3765
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      79{col 37}      85{col 47}      89{col 57}     102{col 67}     118
+
+{txt}{hline}
+{res}wjkszawl{right:W-J Age Standard Score-Written Lang  Scyr 1 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}77{txt},{res}119{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}22{col 51}{txt}missing .:  {res}117{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 100.847
+{txt}{col 15}std. dev:{res}{col 26} 10.8752
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      86{col 37}      93{col 47}     103{col 57}     108{col 67}     118
+
+{txt}{hline}
+{res}wjkszakn{right:W-J Age Standard Score-Knowledge  Scyr 1 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}73{txt},{res}118{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}24{col 51}{txt}missing .:  {res}117{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 94.6271
+{txt}{col 15}std. dev:{res}{col 26} 11.1863
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      78{col 37}      87{col 47}      95{col 57}     100{col 67}     110
+
+{txt}{hline}
+{res}wjkszask{right:W-J Age Standard Score-Skills  Scyr 1 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}79{txt},{res}121{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}28{col 51}{txt}missing .:  {res}117{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 100.492
+{txt}{col 15}std. dev:{res}{col 26} 11.2975
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      86{col 37}      92{col 47}     101{col 57}     108{col 67}     120
+
+{txt}{hline}
+{res}wj2fzard{right:W-J Age Standard Score-Reading  Scyr 2 Fall}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}72{txt},{res}127{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}30{col 51}{txt}missing .:  {res}117{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 95.6271
+{txt}{col 15}std. dev:{res}{col 26} 14.6392
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      75{col 37}      85{col 47}      95{col 57}     104{col 67}     118
+
+{txt}{hline}
+{res}wj2fzama{right:W-J Age Standard Score-Math  Scyr 2 Fall}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}74{txt},{res}122{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}30{col 51}{txt}missing .:  {res}117{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 93.1186
+{txt}{col 15}std. dev:{res}{col 26} 14.0677
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      77{col 37}      82{col 47}      90{col 57}     103{col 67}     114
+
+{txt}{hline}
+{res}wj2fzawl{right:W-J Age Standard Score-Written Lang  Scyr 2 Fall}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}75{txt},{res}113{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}27{col 51}{txt}missing .:  {res}117{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 93.9322
+{txt}{col 15}std. dev:{res}{col 26} 10.4153
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      79{col 37}      86{col 47}      96{col 57}     100{col 67}     109
+
+{txt}{hline}
+{res}wj2fzakn{right:W-J Age Standard Score-Knowledge  Scyr 2 Fall}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}75{txt},{res}118{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}25{col 51}{txt}missing .:  {res}117{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 94.2542
+{txt}{col 15}std. dev:{res}{col 26} 10.5628
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      81{col 37}      88{col 47}      94{col 57}     100{col 67}     105
+
+{txt}{hline}
+{res}wj2fzask{right:W-J Age Standard Score-Skills  Scyr 2 Fall}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}74{txt},{res}122{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}26{col 51}{txt}missing .:  {res}117{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 95.4576
+{txt}{col 15}std. dev:{res}{col 26}  12.449
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      79{col 37}      87{col 47}      95{col 57}     101{col 67}     118
+
+{txt}{hline}
+{res}wj2szard{right:W-J Age Standard Score-Reading  Scyr 2 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}74{txt},{res}122{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}29{col 51}{txt}missing .:  {res}116{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 96.6333
+{txt}{col 15}std. dev:{res}{col 26} 15.2715
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      75{col 37}    83.5{col 47}    95.5{col 57}   108.5{col 67}     121
+
+{txt}{hline}
+{res}wj2szama{right:W-J Age Standard Score-Math  Scyr 2 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}float{txt})
+
+{col 18}range:  [{res}71{txt},{res}125.5{txt}]{col 55}units:  {res}.1
+{col 10}{txt}unique values:  {res}32{col 51}{txt}missing .:  {res}116{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26}  99.725
+{txt}{col 15}std. dev:{res}{col 26}  16.256
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      76{col 37}      88{col 47}   102.5{col 57}   112.5{col 67}     119
+
+{txt}{hline}
+{res}wj2szawl{right:W-J Age Standard Score-Written Lang  Scyr 2 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}float{txt})
+
+{col 18}range:  [{res}76.5{txt},{res}121{txt}]{col 55}units:  {res}.1
+{col 10}{txt}unique values:  {res}26{col 51}{txt}missing .:  {res}116{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 98.5417
+{txt}{col 15}std. dev:{res}{col 26} 14.0086
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      82{col 37}      85{col 47}    97.5{col 57}   110.5{col 67}     119
+
+{txt}{hline}
+{res}wj2szakn{right:W-J Age Standard Score-Knowledge  Scyr 2 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}float{txt})
+
+{col 18}range:  [{res}81{txt},{res}118.5{txt}]{col 55}units:  {res}.1
+{col 10}{txt}unique values:  {res}29{col 51}{txt}missing .:  {res}116{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26}  95.575
+{txt}{col 15}std. dev:{res}{col 26}  10.303
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      83{col 37}      88{col 47}      93{col 57}   101.5{col 67}     111
+
+{txt}{hline}
+{res}wj2szask{right:W-J Age Standard Score-Skills  Scyr 2 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}77{txt},{res}122{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}34{col 51}{txt}missing .:  {res}116{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 98.1333
+{txt}{col 15}std. dev:{res}{col 26} 13.5365
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}    79.5{col 37}    87.5{col 47}      97{col 57}   109.5{col 67}     118
+
+{txt}{hline}
+{res}wj3fzard{right:W-J Age Standard Score-Reading  Scyr 3 Fall}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}61{txt},{res}120{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}49{col 51}{txt}missing .:  {res}33{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 89.4056
+{txt}{col 15}std. dev:{res}{col 26} 14.5453
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      69{col 37}      77{col 47}      90{col 57}      99{col 67}     108
+
+{txt}{hline}
+{res}wj3fzama{right:W-J Age Standard Score-Math  Scyr 3 Fall}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}63{txt},{res}118{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}44{col 51}{txt}missing .:  {res}29{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 92.4082
+{txt}{col 15}std. dev:{res}{col 26} 13.0441
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      75{col 37}      83{col 47}      94{col 57}     100{col 67}     109
+
+{txt}{hline}
+{res}wj3fzawl{right:W-J Age Standard Score-Written Lang  Scyr 3 Fall}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}68{txt},{res}121{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}34{col 51}{txt}missing .:  {res}115{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 96.9836
+{txt}{col 15}std. dev:{res}{col 26} 15.5826
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      79{col 37}      85{col 47}      95{col 57}     111{col 67}     118
+
+{txt}{hline}
+{res}wj3fzakn{right:W-J Age Standard Score-Knowledge  Scyr 3 Fall}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}75{txt},{res}113{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}27{col 51}{txt}missing .:  {res}115{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 94.1639
+{txt}{col 15}std. dev:{res}{col 26} 11.0592
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      80{col 37}      87{col 47}      92{col 57}     104{col 67}     110
+
+{txt}{hline}
+{res}wj3fzask{right:W-J Age Standard Score-Skills  Scyr 3 Fall}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}60{txt},{res}121{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}43{col 51}{txt}missing .:  {res}29{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 90.3265
+{txt}{col 15}std. dev:{res}{col 26} 13.5121
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      74{col 37}      81{col 47}      90{col 57}      98{col 67}     108
+
+{txt}{hline}
+{res}wj3szard{right:W-J Age Standard Score-Reading  Scyr 3 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}65{txt},{res}116{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}45{col 51}{txt}missing .:  {res}28{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 91.0743
+{txt}{col 15}std. dev:{res}{col 26} 13.3885
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      72{col 37}    81.5{col 47}      91{col 57}    99.5{col 67}     111
+
+{txt}{hline}
+{res}wj3szama{right:W-J Age Standard Score-Math  Scyr 3 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}63{txt},{res}125{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}46{col 51}{txt}missing .:  {res}27{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 95.5235
+{txt}{col 15}std. dev:{res}{col 26} 14.3934
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      77{col 37}      84{col 47}      95{col 57}     106{col 67}     115
+
+{txt}{hline}
+{res}wj3szawl{right:W-J Age Standard Score-Written Lang  Scyr 3 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}71{txt},{res}123{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}34{col 51}{txt}missing .:  {res}115{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 99.2951
+{txt}{col 15}std. dev:{res}{col 26} 16.1899
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      78{col 37}      84{col 47}     101{col 57}     113{col 67}     120
+
+{txt}{hline}
+{res}wj3szakn{right:W-J Age Standard Score-Knowledge  Scyr 3 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}75{txt},{res}123{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}31{col 51}{txt}missing .:  {res}115{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 94.2623
+{txt}{col 15}std. dev:{res}{col 26} 12.9704
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      79{col 37}      85{col 47}      91{col 57}     104{col 67}     110
+
+{txt}{hline}
+{res}wj3szask{right:W-J Age Standard Score-Skills  Scyr 3 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}66{txt},{res}122{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}45{col 51}{txt}missing .:  {res}27{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 92.3423
+{txt}{col 15}std. dev:{res}{col 26} 13.5551
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      74{col 37}      83{col 47}      90{col 57}     102{col 67}     111
+
+{txt}{hline}
+{res}wj7zard{right:W-J Age Standard Score - Reading  Scyr 7}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}58{txt},{res}117{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}41{col 51}{txt}missing .:  {res}14{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26}  88.679
+{txt}{col 15}std. dev:{res}{col 26} 12.6435
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      74{col 37}      82{col 47}    88.5{col 57}      98{col 67}     104
+
+{txt}{hline}
+{res}wj7zama{right:W-J Age Standard Score - Math  Scyr 7}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}62{txt},{res}114{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}40{col 51}{txt}missing .:  {res}14{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 90.1728
+{txt}{col 15}std. dev:{res}{col 26} 12.5231
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      72{col 37}      81{col 47}      91{col 57}      98{col 67}     106
+
+{txt}{hline}
+{res}wj7zawl{right:W-J Age Standard Score - Written Lang  Scyr 7}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}64{txt},{res}123{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}53{col 51}{txt}missing .:  {res}14{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26}  93.358
+{txt}{col 15}std. dev:{res}{col 26} 14.3815
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      77{col 37}      83{col 47}      92{col 57}     105{col 67}     112
+
+{txt}{hline}
+{res}wj7zakn{right:W-J Age Standard Score - Knowledge  Scyr 7}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}63{txt},{res}119{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}45{col 51}{txt}missing .:  {res}14{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 91.4074
+{txt}{col 15}std. dev:{res}{col 26}  12.071
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      75{col 37}      83{col 47}      92{col 57}      99{col 67}     106
+
+{txt}{hline}
+{res}wj7zask{right:W-J Age Standard Score - Skills  Scyr 7}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}60{txt},{res}121{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}50{col 51}{txt}missing .:  {res}14{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 91.1852
+{txt}{col 15}std. dev:{res}{col 26} 13.9004
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      74{col 37}      82{col 47}      90{col 57}      99{col 67}     111
+
+{txt}{hline}
+{res}wj10zafs{right:W-J Age Stand Score-Full-Scale Broad Cognitive Ability  Sc}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}74{txt},{res}114{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}34{col 51}{txt}missing .:  {res}72{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 93.0865
+{txt}{col 15}std. dev:{res}{col 26}  10.453
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      79{col 37}      86{col 47}      92{col 57}      99{col 67}     107
+
+{txt}{hline}
+{res}wj10zava{right:W-J Age Stand Score-Verbal Ability  Scyr 10}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}71{txt},{res}112{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}34{col 51}{txt}missing .:  {res}72{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 90.7212
+{txt}{col 15}std. dev:{res}{col 26} 11.1351
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      77{col 37}      82{col 47}      91{col 57}    97.5{col 67}     105
+
+{txt}{hline}
+{res}wj10zard{right:W-J Age Stand Score-Reading  Scyr 10}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}69{txt},{res}113{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}29{col 51}{txt}missing .:  {res}72{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 91.5288
+{txt}{col 15}std. dev:{res}{col 26} 10.4044
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      81{col 37}      86{col 47}      90{col 57}    99.5{col 67}     105
+
+{txt}{hline}
+{res}wj10zama{right:W-J Age Stand Score-Math  Scyr 10}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}67{txt},{res}111{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}36{col 51}{txt}missing .:  {res}72{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 90.3462
+{txt}{col 15}std. dev:{res}{col 26} 11.8426
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      73{col 37}      84{col 47}      90{col 57}      98{col 67}     107
+
+{txt}{hline}
+{res}wj10zakn{right:W-J Age Stand Score-Knowledge  Scyr 10}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}73{txt},{res}107{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}32{col 51}{txt}missing .:  {res}73{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 89.7573
+{txt}{col 15}std. dev:{res}{col 26} 9.21791
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      77{col 37}      83{col 47}      90{col 57}      96{col 67}     102
+
+{txt}{hline}
+{res}pstkinas{right:Piat General Information Age Std  Scyr 1 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}77{txt},{res}119{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}24{col 51}{txt}missing .:  {res}85{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 97.2637
+{txt}{col 15}std. dev:{res}{col 26} 11.2624
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      82{col 37}      88{col 47}     100{col 57}     105{col 67}     111
+
+{txt}{hline}
+{res}pstktoas{right:Piat Total Test Age Std  Scyr 1 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}84{txt},{res}111{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}24{col 51}{txt}missing .:  {res}86{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 98.0444
+{txt}{col 15}std. dev:{res}{col 26} 7.50717
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}    87.5{col 37}      92{col 47}      99{col 57}     104{col 67}     107
+
+{txt}{hline}
+{res}pre1inas{right:Piat General Information Age Std  Scyr 2 Fall}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}78{txt},{res}121{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}29{col 51}{txt}missing .:  {res}86{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 97.3778
+{txt}{col 15}std. dev:{res}{col 26} 11.0551
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}    82.5{col 37}      90{col 47}      97{col 57}     103{col 67}   113.5
+
+{txt}{hline}
+{res}pre1toas{right:Piat Total Test Age Std  Scyr 2 Fall}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}84{txt},{res}105{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}19{col 51}{txt}missing .:  {res}86{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 95.2889
+{txt}{col 15}std. dev:{res}{col 26} 6.56385
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}    85.5{col 37}      90{col 47}      96{col 57}     101{col 67}     105
+
+{txt}{hline}
+{res}pst1rcas{right:Piat Reading Comprehension Age Std  Scyr 2 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}91{txt},{res}116{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}22{col 51}{txt}missing .:  {res}95{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 101.593
+{txt}{col 15}std. dev:{res}{col 26}  7.4963
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      92{col 37}      95{col 47}     101{col 57}     107{col 67}     114
+
+{txt}{hline}
+{res}pst1inas{right:Piat General Information Age Std  Scyr 2 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}86{txt},{res}119{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}30{col 51}{txt}missing .:  {res}85{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 99.6374
+{txt}{col 15}std. dev:{res}{col 26} 9.80308
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      87{col 37}      92{col 47}      98{col 57}     106{col 67}     114
+
+{txt}{hline}
+{res}pst1toas{right:Piat Total Test Age Std  Scyr 2 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}int{txt})
+
+{col 18}range:  [{res}82{txt},{res}113{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}24{col 51}{txt}missing .:  {res}85{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 97.4396
+{txt}{col 15}std. dev:{res}{col 26} 8.31091
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}      87{col 37}      91{col 47}      98{col 57}     103{col 67}     107
+
+{txt}{hline}
+{res}hostilek{right:Cbi 42-Scale Hostility  Scyr 1 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}3{txt},{res}15{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}13{col 51}{txt}missing .:  {res}33{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 8.30769
+{txt}{col 15}std. dev:{res}{col 26} 3.23979
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}       4{col 37}       6{col 47}       8{col 57}      11{col 67}      13
+
+{txt}{hline}
+{res}hostile1{right:Cbi 42-Scale Hostility  Scyr 2 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}3{txt},{res}15{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}13{col 51}{txt}missing .:  {res}33{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 9.11888
+{txt}{col 15}std. dev:{res}{col 26} 3.24252
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}       5{col 37}       7{col 47}       9{col 57}      12{col 67}      14
+
+{txt}{hline}
+{res}hostile2{right:Cbi 42-Scale Hostility  Scyr 3 Spring}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}3{txt},{res}15{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}13{col 51}{txt}missing .:  {res}28{txt}/{res}176
+
+{txt}{col 19}mean:{res}{col 26} 8.87838
+{txt}{col 15}std. dev:{res}{col 26} 3.54927
+
+{txt}{col 12}percentiles:{col 32}10%{col 42}25%{col 52}50%{col 62}75%{col 72}90%
+{res}{col 27}       4{col 37}       6{col 47}       9{col 57}      12{col 67}      14
+
+{txt}{hline}
+{res}daycare_tc_cr{right:Day Care Treatement/Control}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:tc}
+
+{col 18}range:  [{res}0{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}0{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 24}{res}    103{col 33}       0{col 43}{txt}Control
+{col 24}{res}     73{col 33}       1{col 43}{txt}Treatment
+
+{txt}{hline}
+{res}schage_tc_cr{right:School Age Treatment/Control}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:tc}
+
+{col 18}range:  [{res}0{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}15{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 24}{res}     70{col 33}       0{col 43}{txt}Control
+{col 24}{res}     91{col 33}       1{col 43}{txt}Treatment
+{col 24}{res}     15{col 33}       .{col 43}
+
+{txt}{hline}
+{res}home_tc_cr{right:Home Visit Treatment/Control}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+{ralign 22:label}:  {res:tc}
+
+{col 18}range:  [{res}0{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}0{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 24}{res}    134{col 33}       0{col 43}{txt}Control
+{col 24}{res}     42{col 33}       1{col 43}{txt}Treatment
+
+{txt}{hline}
+{res}study_cr{right:Study S Is In}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}long{txt})
+{ralign 22:label}:  {res:study_cr}
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}0{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 24}{res}    111{col 33}       1{col 43}{txt}ABC
+{col 24}{res}     65{col 33}       2{col 43}{txt}CARE
+
+{txt}{hline}
+{res}sex_cr{right:Sex}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}long{txt})
+{ralign 22:label}:  {res:sex}, but {res:1} nonmissing value is not labeled
+
+{col 18}range:  [{res}1{txt},{res}2{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}0{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 24}{res}     84{col 33}       1{col 43}{txt}Female
+{col 24}{res}     92{col 33}       2{col 43}
+
+{txt}{hline}
+{res}momage_cr{right:Mother's Age at Birth}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}float{txt})
+{ralign 22:label}:  {res:mage}
+
+{col 18}range:  [{res}1{txt},{res}3{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}3{col 51}{txt}missing .:  {res}2{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 24}{res}     45{col 33}       1{col 43}{txt}<=17 yrs.
+{col 24}{res}     47{col 33}       2{col 43}{txt}18-19 yrs.
+{col 24}{res}     82{col 33}       3{col 43}{txt}20+ yrs.
+{col 24}{res}      2{col 33}       .{col 43}
+
+{txt}{hline}
+{res}mage17_cr{right:Mother 17 or Under at Birth}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}0{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}2{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}    129{col 33}0
+{col 24}     45{col 33}1
+{col 24}      2{col 33}.
+
+{txt}{hline}
+{res}mage18to19_cr{right:Mother Between 18 and 19 at Birth}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}0{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}2{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}    127{col 33}0
+{col 24}     47{col 33}1
+{col 24}      2{col 33}.
+
+{txt}{hline}
+{res}mage20_cr{right:Mother 20 or Older at Birth}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}byte{txt})
+
+{col 18}range:  [{res}0{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}2{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.  Value
+{col 24}{res}     92{col 33}0
+{col 24}     82{col 33}1
+{col 24}      2{col 33}.
+
+{txt}{hline}
+{res}fp_cr{right:Father Presence at Birth}
+{txt}{hline}
+
+{col 19}type:  numeric ({res}float{txt})
+{ralign 22:label}:  {res:fp}
+
+{col 18}range:  [{res}0{txt},{res}1{txt}]{col 55}units:  {res}1
+{col 10}{txt}unique values:  {res}2{col 51}{txt}missing .:  {res}0{txt}/{res}176
+
+{txt}{col 13}tabulation:  Freq.   Numeric  Label
+{col 24}{res}     46{col 33}       0{col 43}{txt}Absent
+{col 24}{res}    130{col 33}       1{col 43}{txt}Present
+
+{com}. log close
+       {txt}log:  {res}\\Athens.uchicago.edu\klmshare\Brian\Abecedarian\codebook.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}18 Aug 2005, 12:43:13
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

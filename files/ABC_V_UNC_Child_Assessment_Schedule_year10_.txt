@@ -1,0 +1,499 @@
+                                                                ABC--YEAR 10
+                                                         CHILD ASSESSMENT SCHEDULE                                          Page 1
+                                                            
+
+                                                          UNIQUE ORDERED KEYS = sUBJECT
+
+
+         VARIABLE  TYPE      DESCRIPTION                          FORMAT       VALUES
+
+         CAS_INT   C7   CAS10 Interviewer                                      <Not DEClared>
+
+         CAS_RATR  C7   CAS10 Rater                                            <Not DEClared>
+
+         CAS_1     C2   CAS10 #1 Best thing about school           
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+         CAS_2     C2   CAS10 #2 Decr in enjoy of best-liked act                -- Same --
+         CAS_3     C2   CAS10 #3 Social or interpersonal activit                -- Same --
+         CAS_4     C2   CAS10 #4 Difficulty with teachers                       -- Same --
+         CAS_5     C2   CAS10 #5 Grades not adequate                            -- Same --
+         CAS_6     C2   CAS10 #6 Unsat. grades - poor effort                    -- Same --
+         CAS_6B    C2   CAS10 #6B Unsat. grades - lack of abilit                -- Same --
+         CAS_7     C2   CAS10 #7 Unsat. grades - other                          -- Same --
+
+         CAS_7S    C20  CAS10 #7S Unsat. grades-other (specify)                <Not DEClared>
+
+         CAS_8     C2   CAS10 #8 Grades recently decreased         
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+         CAS_9     C2   CAS10 #9 Doesn't do/complete homework                   -- Same --
+         CAS_10    C2   CAS10 #10 No concern about not doing hmw                -- Same --
+         CAS_11    C2   CAS10 #11 Recent decr in homework perfor                -- Same --
+         CAS_12    C2   CAS10 #12 Trouble concentrating b/c stre                -- Same --
+         CAS_13    C2   CAS10 #13 Easily distracted                             -- Same --
+         CAS_14    C2   CAS10 #14 Diff listening to teacher                     -- Same --
+         CAS_15    C2   CAS10 #15 Diff concentrating on schlwork                -- Same --
+         CAS_16    C2   CAS10 #16 Diff sticking to a play activ                 -- Same --
+         CAS_17    C2   CAS10 #17 Diff finishing tasks                          -- Same --
+         CAS_18    C2   CAS10 #18 Frequent absences                             -- Same --
+         CAS_19    C2   CAS10 #19 Abs b/c lack of int in school                 -- Same --
+         CAS_20    C2   CAS10 #20 Abs b/c of concern for par/fam                -- Same --
+         CAS_21    C2   CAS10 #21 Abs b/c of peer/tch ridicule                  -- Same --
+         CAS_22    C2   CAS10 #22 Abs b/c parnt wants chld at ho                -- Same --
+         CAS_23    C2   CAS10 #23 Less than 3 friends, can't nam                -- Same --
+
+         CAS_23ES  C20  CAS10 #23ES Absent from school, Other                  <Not DEClared>
+
+         CAS_24    C2   CAS10 #24 No friendshps of more than 6 m   
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+         CAS_25    C2   CAS10 #25 Describes self as soc isolated                -- Same --
+         CAS_26    C2   CAS10 #26 No close frnds of same age                    -- Same --
+         CAS_27    C2   CAS10 #27 Doesn't want more friends                     -- Same --
+         CAS_28    C2   CAS10 #28 Can't rept on act w friends                   -- Same --
+
+
+                                               IN FILE: K:\ABC\YEAR10\CAS10\DOC\CODEBOOK.TXT
+                                                                ABC--YEAR 10
+                                                         CHILD ASSESSMENT SCHEDULE                                          Page 2
+                                                           
+
+
+         VARIABLE  TYPE      DESCRIPTION                          FORMAT       VALUES
+
+         CAS_29    C2   CAS10 #29 Rec less enjoyment w friends                 For codes, see CAS_24.
+         CAS_30    C2   CAS10 #30 No concern for welfare of frnd                -- Same --
+         CAS_31    C2   CAS10 #31 Lack of altruism                              -- Same --
+         CAS_32    C2   CAS10 #32 Blames/informs on companions                  -- Same --
+         CAS_33    C2   CAS10 #33 Feels no guilt/remorse when ap                -- Same --
+         CAS_34    C2   CAS10 #34 Conflictual probs w some peers                -- Same --
+
+         CAS_34A   C2   CAS10 #34A Peer Confl: Bad qual himself    
+                          X       Choice circled
+                        Blank     Choice Not Circled
+         CAS_34B   C2   CAS10 #34B Peer Confl: Other children                   -- Same --
+         CAS_34C   C2   CAS10 #34C Peer Confl: Authority                        -- Same --
+         CAS_34D   C2   CAS10 #34D Peer Confl: Other                            -- Same --
+
+         CAS_34DS  C20  CAS10 #34DS Cause of probs-other (spec)                <Not DEClared>
+
+         CAS_35    C2   CAS10 #35 Can't trust people               
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+         CAS_36    C2   CAS10 #36 Can't rept anything does on ow                -- Same --
+         CAS_37    C2   CAS10 #37 Recently does hobbies less                    -- Same --
+         CAS_38    C2   CAS10 #38 Rec does hobbies more                         -- Same --
+         CAS_39    C2   CAS10 #39 Spends a lot of time alone                    -- Same --
+         CAS_40    C2   CAS10 #40 Doesn't like being alone b/c s                -- Same --
+         CAS_41    C2   CAS10 #41 Doesn't like being alone b/c o                -- Same --
+         CAS_42    C2   CAS10 #42 Doesn't acc describe family                   -- Same --
+         CAS_43    C2   CAS10 #43 Spon indic diff w some fam mem                -- Same --
+
+         CAS_43A   C2   CAS10 #43A Bio parents living together?    
+                          A       Biol Parents Live Together
+                          B       Biol Parents NOT Living Togeth
+
+         CAS_43B   N4   CAS10 #43B Biggest troublemakr in family  BEST3.
+
+         CAS_44    C2   CAS10 #44 Not close to anyone in family    
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+         CAS_45    C2   CAS10 #45 Diff getting along w bio mom                  -- Same --
+         CAS_46    C2   CAS10 #46 Diff getting along w mo fig                   -- Same --
+         CAS_47    C2   CAS10 #47 Bio mom doesn't meet phys need                -- Same --
+         CAS_48    C2   CAS10 #48 Mo fig doesn't meet phys needs                -- Same --
+         CAS_49    C2   CAS10 #49 Bio mom doesn't meet emot need                -- Same --
+         CAS_50    C2   CAS10 #50 Mo fig doesn't meet emot needs                -- Same --
+         CAS_51    C2   CAS10 #51 Bio mom doesn't meet indep nee                -- Same --
+         CAS_52    C2   CAS10 #52 Mo fig doesn't meet indep need                -- Same --
+         CAS_53    C2   CAS10 #53 Bio mom negative toward child                 -- Same --
+         CAS_54    C2   CAS10 #54 Mo fig negative toward child                  -- Same --
+
+         CAS_54A   C2   CAS10 #54A (Mother)Blame?His own fault     
+                          X       Choice circled
+                        Blank     Choice Not Circled
+         CAS_54B   C2   CAS10 #54B (Mother)Blame?Mother's fault                 -- Same --
+         CAS_54C   C2   CAS10 #54C (Mother)Blame?3rd force fault                -- Same --
+         CAS_54D   C2   CAS10 #54D (Mother)Blame?Other (X)                      -- Same --
+
+         CAS_54DS  C20  CAS10 #54DS (Mother)Blame?Other-spec                   <Not DEClared>
+
+
+
+
+                                               IN FILE: K:\ABC\YEAR10\CAS10\DOC\CODEBOOK.TXT
+                                                                ABC--YEAR 10
+                                                         CHILD ASSESSMENT SCHEDULE                                          Page 3
+                                                         
+
+
+         VARIABLE  TYPE      DESCRIPTION                          FORMAT       VALUES
+
+         CAS_55    C2   CAS10 #55 No recall like thng bio mom do   
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+         CAS_56    C2   CAS10 #56 No recall like thng mo fig doe                -- Same --
+         CAS_57    C2   CAS10 #57 No recall dslik thng bio mo do                -- Same --
+         CAS_58    C2   CAS10 #58 No recall dslik thng mo fig do                -- Same --
+         CAS_59    C2   CAS10 #59 Diff getting along w bio dad                  -- Same --
+         CAS_60    C2   CAS10 #60 Diff getting along w fa fig                   -- Same --
+         CAS_61    C2   CAS10 #61 Bio dad doesn't meet phy needs                -- Same --
+         CAS_62    C2   CAS10 #62 Fa fig doesn't meet phy needs                 -- Same --
+         CAS_63    C2   CAS10 #63 Bio dad doesn't meet emot need                -- Same --
+         CAS_64    C2   CAS10 #64 Fa fig doesn't meet emot needs                -- Same --
+         CAS_65    C2   CAS10 #65 Bio dad doesn't meet indep nee                -- Same --
+         CAS_66    C2   CAS10 #66 Fa fig doesn't meet indep need                -- Same --
+         CAS_67    C2   CAS10 #67 Bio dad negative toward child                 -- Same --
+         CAS_68    C2   CAS10 #68 Fa fig negative toward child                  -- Same --
+
+         CAS_68A   C2   CAS10 #68A (Father)Blame? His own fault    
+                          X       Choice circled
+                        Blank     Choice Not Circled
+         CAS_68B   C2   CAS10 #68B (Father)Blame? Mother's fault                -- Same --
+         CAS_68C   C2   CAS10 #68C (Father)Blame? 3rd force                     -- Same --
+         CAS_68D   C2   CAS10 #68D (Father) Blame? Other (X)                    -- Same --
+
+         CAS_68DS  C20  CAS10 #68DS (Father) Blame? Other-spec                 <Not DEClared>
+
+         CAS_69    C2   CAS10 #69 No recall like thng bio dad do   
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+         CAS_70    C2   CAS10 #70 No recall like thng fa fig doe                -- Same --
+         CAS_71    C2   CAS10 #71 No recall dslik thng bio dad d                -- Same --
+         CAS_72    C2   CAS10 #72 No recall dslik thng fa fig do                -- Same --
+         CAS_73    C2   CAS10 #73 Chng in external circumstances                -- Same --
+         CAS_74    C2   CAS10 #74 Chng in behav of fam members?                 -- Same --
+         CAS_75    C2   CAS10 #75 Chng in child?                                -- Same --
+         CAS_76    C2   CAS10 #76 Unhappy in family                             -- Same --
+         CAS_77    C2   CAS10 #77 Parents have marital diff                     -- Same --
+
+         CAS_77A   C2   CAS10 #77A Relevant relation-Nat parents               <Not DEClared>
+
+         CAS_77B   C2   CAS10 #77B Relevant relation-Nat+step      
+                          X       Choice circled
+                        Blank     Choice Not Circled
+
+         CAS_78    C2   CAS10 #78 Div/sep bio parents have confl   
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+         CAS_79    C2   CAS10 #79 Considerable sibling conflict                 -- Same --
+         CAS_80    C2   CAS10 #80 Would like to leave home                      -- Same --
+         CAS_81    C2   CAS10 #81 Feels better away from home                   -- Same --
+         CAS_82    C2   CAS10 #82 Feels panicky/sad when away fr                -- Same --
+         CAS_83    C2   CAS10 #83 Fear of par rejection/forced s                -- Same --
+         CAS_84    C2   CAS10 #84 Denies any fears                              -- Same --
+         CAS_85    C2   CAS10 #85 Fears of a bizarre nature                     -- Same --
+         CAS_86    C2   CAS10 #86 Fear of being in publ places                  -- Same --
+         CAS_87    C2   CAS10 #87 Fear of being embarrassed                     -- Same --
+
+
+                                               IN FILE: K:\ABC\YEAR10\CAS10\DOC\CODEBOOK.TXT
+                                                                ABC--YEAR 10
+                                                         CHILD ASSESSMENT SCHEDULE                                          Page 4
+                                                          
+
+
+         VARIABLE  TYPE      DESCRIPTION                          FORMAT       VALUES
+
+         CAS_88    C2   CAS10 #88 Fear of school                               For codes, see CAS_78.
+         CAS_89    C2   CAS10 #89 Fear of animals                               -- Same --
+         CAS_90    C2   CAS10 #90 Fear of heights                               -- Same --
+         CAS_91    C2   CAS10 #91 Fear of closed space                          -- Same --
+         CAS_91A   C2   CAS10 #91A Other fear                                   -- Same --
+
+         CAS_91AS  C20  CAS10 #91AS Fearful?Anything else?(Spec)               <Not DEClared>
+
+         CAS_92    C2   CAS10 #92 Fear #1 (Rated)                  
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+
+         CAS_92S   C20  CAS10 #92 Fear #1 (Specified)                          <Not DEClared>
+
+         CAS_93    C2   CAS10 #93 Fear #2 (Rated)                  
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+
+         CAS_93S   C20  CAS10 #93 Fear #2 (Specified)                          <Not DEClared>
+
+         CAS_94    C2   CAS10 #94 Fear #3 (Rated)                  
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+
+         CAS_94S   C20  CAS10 #94 Fear #3 (Specified)                          <Not DEClared>
+
+         CAS_95    C2   CAS10 #95 Fear #4 (Rated)                  
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+
+         CAS_95S   C20  CAS10 #95 Fear #4 (Specified)                          <Not DEClared>
+
+         CAS_96    C2   CAS10 #96 Fear #5 (Rated)                  
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+
+         CAS_96S   C20  CAS10 #96 Fear #5 (Specified)                          <Not DEClared>
+
+         CAS_97    C2   CAS10 #97 Denies any worries               
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+         CAS_98    C2   CAS10 #98 Excess worry about nat disaste                -- Same --
+         CAS_99    C2   CAS10 #99 Worries fam mem is sick                       -- Same --
+         CAS_100   C2   CAS10 #100 Worries fam mem will die                     -- Same --
+         CAS_101   C2   CAS10 #101 Worries parents will argue                   -- Same --
+         CAS_102   C2   CAS10 #102 Worries parents will fight                   -- Same --
+         CAS_103   C2   CAS10 #103 Worries about mar sep/div                    -- Same --
+         CAS_104   C2   CAS10 #104 Worries about pars' ment dep                 -- Same --
+         CAS_105   C2   CAS10 #105 Worries about sep fr attach f                -- Same --
+         CAS_106   C2   CAS10 #106 Worries about self                           -- Same --
+
+
+                                               IN FILE: K:\ABC\YEAR10\CAS10\DOC\CODEBOOK.TXT
+                                                                ABC--YEAR 10
+                                                        CHILD ASSESSMENT SCHEDULE                                          Page 5
+                                                           
+
+
+         VARIABLE  TYPE      DESCRIPTION                          FORMAT       VALUES
+
+         CAS_106S  C20  CAS10 #106 Worries about self (Spec)                   <Not DEClared>
+
+         CAS_107   C2   CAS10 #107 Unreal worry about fut          
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+         CAS_108   C2   CAS10 #108 Worry about past imperfection                -- Same --
+         CAS_109   C2   CAS10 #109 Overconcern about competence                 -- Same --
+         CAS_110   C2   CAS10 #110 Excess need for reassurance                  -- Same --
+         CAS_111   C2   CAS10 #111 Worry # Separation Anx(Rated)                -- Same --
+         CAS_112   C2   CAS10 #112 Worry # (2) (Rated)                          -- Same --
+
+         CAS_112S  C20  CAS10 #112S Worry # (2) (Specify)                      <Not DEClared>
+
+         CAS_113   C2   CAS10 #113 Worry # (3) (Rated)             
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+
+         CAS_113S  C20  CAS10 #113S Worry # (3) (Specify)                      <Not DEClared>
+
+         CAS_114   C2   CAS10 #114 Worry # (4) (Rated)             
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+
+         CAS_114S  C20  CAS10 #114S Worry # (4) (Specify)                      <Not DEClared>
+
+         CAS_115   C2   CAS10 #115 Worry # (5) (Rated)             
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+
+         CAS_115S  C20  CAS10 #115S Worry # (5) (Specify)                      <Not DEClared>
+
+         CAS_116   C2   CAS10 #116 Incapacitation-Sep Anx(Rated)   
+                         AM       AMBiguous
+                          F       F/No
+                         NS       Not Scored
+                          T       T/Yes
+         CAS_117   C2   CAS10 #117 Incapacitation # (2) (Rated)                 -- Same --
+         CAS_118   C2   CAS10 #118 Incapacitation # (3) (Rated)                 -- Same --
+         CAS_119   C2   CAS10 #119 Incapacitation # (4) (Rated)                 -- Same --
+         CAS_120   C2   CAS10 #120 Incapacitation # (5) (Rated)                 -- Same --
+         CAS_121   C2   CAS10 #121 Anxiety a lot                                -- Same --
+         CAS_122   C2   CAS10 #122 Motor tension a lot                          -- Same --
+         CAS_123   C2   CAS10 #123 Autonomic hyperactivity                      -- Same --
+         CAS_124   C2   CAS10 #124 Vigil scanning/hyperalert                    -- Same --
+         CAS_125   C2   CAS10 #125 Bad thngs will befall him/her                -- Same --
+         CAS_126   C2   CAS10 #126 Will cause bad thngs to happe                -- Same --
+         CAS_127   C2   CAS10 #127 Describes obsessions                         -- Same --
+         CAS_128   C2   CAS10 #128 Obsessions distress child                    -- Same --
+         CAS_129   C2   CAS10 #129 Describes compulsions                        -- Same --
+         CAS_130   C2   CAS10 #130 Compulsions distress child                   -- Same --
+         CAS_131   C2   CAS10 #131 Describes self negatively                    -- Same --
+         CAS_132   C2   CAS10 #132 Describes bodily imperf                      -- Same --
+         CAS_133   C2   CAS10 #133 Views self as dumb                           -- Same --
+         CAS_134   C2   CAS10 #134 Views self poor at sports                    -- Same --
+
+
+                                               IN FILE: K:\ABC\YEAR10\CAS10\DOC\CODEBOOK.TXT
+                                                                ABC--YEAR 10
+                                                         CHILD ASSESSMENT SCHEDULE                                          Page 6
+                                                            
+
+
+         VARIABLE  TYPE      DESCRIPTION                          FORMAT       VALUES
+
+         CAS_135   C2   CAS10 #135 Views self as unpopular                     For codes, see CAS_116.
+         CAS_136   C2   CAS10 #136 Marked self-consciousness                    -- Same --
+         CAS_137   C2   CAS10 #137 Nothing pos to be proud of                   -- Same --
+         CAS_138   C2   CAS10 #138 Feels inad/inferior                          -- Same --
+         CAS_139   C2   CAS10 #139 Bad that befalls chld own fau                -- Same --
+         CAS_140   C2   CAS10 #140 Deserves to be punished                      -- Same --
+         CAS_141   C2   CAS10 #141 Family not proud of child                    -- Same --
+         CAS_142   C2   CAS10 #142 Feels sad                                    -- Same --
+         CAS_143   C2   CAS10 #143 Feels irritable a lot                        -- Same --
+         CAS_144   C2   CAS10 #144 Feels empty                                  -- Same --
+         CAS_145   C2   CAS10 #145 Feels hopeless                               -- Same --
+         CAS_146   C2   CAS10 #146 Feels anhedonia                              -- Same --
+         CAS_147   C2   CAS10 #147 Sadness relates to school                    -- Same --
+         CAS_148   C2   CAS10 #148 Sadness relates to peers                     -- Same --
+         CAS_149   C2   CAS10 #149 Sadness relates to family                    -- Same --
+         CAS_150   C2   CAS10 #150 Sadness relates to self                      -- Same --
+         CAS_151   C2   CAS10 #151 Sad nearly every day                         -- Same --
+         CAS_152   C2   CAS10 #152 Sad doing almost all activ                   -- Same --
+         CAS_153   C2   CAS10 #153 Persistently feels bad                       -- Same --
+         CAS_154   C2   CAS10 #154 Cries frequently                             -- Same --
+         CAS_155   C2   CAS10 #155 Cries several times a week                   -- Same --
+         CAS_156   C2   CAS10 #156 Becomes angry                                -- Same --
+         CAS_157   C2   CAS10 #157 Lack of reactivity                           -- Same --
+         CAS_158   C2   CAS10 #158 Low self-esteem                              -- Same --
+         CAS_159   C2   CAS10 #159 Feelings of guilt                            -- Same --
+         CAS_160   C2   CAS10 #160 Feelings of self pity                        -- Same --
+         CAS_161   C2   CAS10 #161 Agitated/hyperactive                         -- Same --
+         CAS_162   C2   CAS10 #162 Psychomotor retardation                      -- Same --
+         CAS_163   C2   CAS10 #163 Broods about unpleas events                  -- Same --
+         CAS_164   C2   CAS10 #164 Clinging feelings                            -- Same --
+         CAS_165   C2   CAS10 #165 Agitated a lot                               -- Same --
+         CAS_166   C2   CAS10 #166 Feels hopeless                               -- Same --
+         CAS_167   C2   CAS10 #167 Feels lonely a lot                           -- Same --
+         CAS_168   C2   CAS10 #168 Thinks often about death                     -- Same --
+         CAS_169   C2   CAS10 #169 Has thought of hurting self                  -- Same --
+         CAS_170   C2   CAS10 #170 Has thought of suicide                       -- Same --
+         CAS_171   C2   CAS10 #171 Thought often of above                       -- Same --
+         CAS_172   C2   CAS10 #172 Can specify a method for abov                -- Same --
+         CAS_173   C2   CAS10 #173 Has tried to hurt/kill self                  -- Same --
+         CAS_174   C2   CAS10 #174 Careless about welfare                       -- Same --
+         CAS_175   C2   CAS10 #175 Trouble sleeping                             -- Same --
+         CAS_176   C2   CAS10 #176 Sleeps too much                              -- Same --
+         CAS_177   C2   CAS10 #177 Has trouble falling asleep                   -- Same --
+         CAS_178   C2   CAS10 #178 Freq/very upsetting nightmare                -- Same --
+         CAS_179   C2   CAS10 #179 Nightmares of separation                     -- Same --
+         CAS_180   C2   CAS10 #180 Has night terrors                            -- Same --
+         CAS_181   C2   CAS10 #181 Early morning wakening                       -- Same --
+         CAS_182   C2   CAS10 #182 Wakening in middle of night                  -- Same --
+         CAS_183   C2   CAS10 #183 Sleepwalking                                 -- Same --
+         CAS_184   C2   CAS10 #184 Sleeps w a parent                            -- Same --
+         CAS_185   C2   CAS10 #185 Loss of appet/overeating                     -- Same --
+         CAS_186   C2   CAS10 #186 Recent weight gain/loss                      -- Same --
+         CAS_187   C2   CAS10 #187 Numerous aches and pains                     -- Same --
+         CAS_188   C2   CAS10 #188 Moderate pains                               -- Same --
+         CAS_189   C2   CAS10 #189 Severe pains                                 -- Same --
+         CAS_190   C2   CAS10 #190 Pains on school days                         -- Same --
+         CAS_191   C2   CAS10 #191 Tired                                        -- Same --
+         CAS_192   C2   CAS10 #192 Hyperactive                                  -- Same --
+         CAS_193   C2   CAS10 #193 Often wets bed/clothes                       -- Same --
+         CAS_194   C2   CAS10 #194 Encopresis                                   -- Same --
+         CAS_195   C2   CAS10 #195 Low frustration toler                        -- Same --
+         CAS_196   C2   CAS10 #196 Angered by emot chrged iss                   -- Same --
+
+
+                                               IN FILE: K:\ABC\YEAR10\CAS10\DOC\CODEBOOK.TXT
+                                                                ABC--YEAR 10
+         	                                         CHILD ASSESSMENT SCHEDULE                                          Page 7
+                                                           
+
+
+         VARIABLE  TYPE      DESCRIPTION                          FORMAT       VALUES
+
+         CAS_197   C2   CAS10 #197 Provoked by others                          For codes, see CAS_116.
+         CAS_198   C2   CAS10 #198 Can't live up to ideals                      -- Same --
+         CAS_199   C2   CAS10 #199 Oft acts before thinking                     -- Same --
+         CAS_200   C2   CAS10 #200 Freq calls out in class                      -- Same --
+         CAS_201   C2   CAS10 #201 Has diff waiting turn                        -- Same --
+         CAS_202   C2   CAS10 #202 Needs a lot of supervision                   -- Same --
+         CAS_203   C2   CAS10 #203 Has difficulty organiz work                  -- Same --
+         CAS_204   C2   CAS10 #204 Excess shifts activities                     -- Same --
+         CAS_205   C2   CAS10 #205 Oft diff controlling temper                  -- Same --
+         CAS_206   C2   CAS10 #206 Trbl follow rules @ school                   -- Same --
+         CAS_207   C2   CAS10 #207 Trbl follow rules @ home                     -- Same --
+         CAS_208   C2   CAS10 #208 Consid a troublemaker                        -- Same --
+         CAS_209   C2   CAS10 #209 Verbal fighting                              -- Same --
+         CAS_210   C2   CAS10 #210 Running away fr home                         -- Same --
+         CAS_211   C2   CAS10 #211 Persistent lying                             -- Same --
+         CAS_212   C2   CAS10 #212 Steal when vict not look                     -- Same --
+         CAS_213   C2   CAS10 #213 Truancy                                      -- Same --
+         CAS_214   C2   CAS10 #214 Freq violates curfew                         -- Same --
+         CAS_215   C2   CAS10 #215 Extortion                                    -- Same --
+         CAS_216   C2   CAS10 #216 Purse-snatching                              -- Same --
+         CAS_217   C2   CAS10 #217 Robbery                                      -- Same --
+         CAS_218   C2   CAS10 #218 Persistent fighting                          -- Same --
+         CAS_219   C2   CAS10 #219 Assaultive                                   -- Same --
+         CAS_220   C2   CAS10 #220 Used a weapon or threatened                  -- Same --
+         CAS_221   C2   CAS10 #221 Rape or rape attempt                         -- Same --
+         CAS_222   C2   CAS10 #222 Mugging                                      -- Same --
+         CAS_223   C2   CAS10 #223 Vandalism                                    -- Same --
+         CAS_224   C2   CAS10 #224 Breaking and entering                        -- Same --
+         CAS_225   C2   CAS10 #225 Fire setting                                 -- Same --
+         CAS_226   C2   CAS10 #226 Stubborn                                     -- Same --
+         CAS_227   C2   CAS10 #227 Provocative behavior                         -- Same --
+         CAS_228   C2   CAS10 #228 Has used alcohol/drugs                       -- Same --
+         CAS_229   C2   CAS10 #229 Consid use of alcohol                        -- Same --
+         CAS_230   C2   CAS10 #230 Consid use of drugs                          -- Same --
+         CAS_231   C2   CAS10 #231 Contact w police/court                       -- Same --
+         CAS_232   C2   CAS10 #232 Contact w principal                          -- Same --
+         CAS_233   C2   CAS10 #233 Believes has sp powers                       -- Same --
+         CAS_234   C2   CAS10 #234 Believes oth have sp pow                     -- Same --
+         CAS_235   C2   CAS10 #235 Confused/unable to thnk                      -- Same --
+         CAS_236   C2   CAS10 #236 Describes visions                            -- Same --
+         CAS_237   C2   CAS10 #237 Descr auditory percept                       -- Same --
+         CAS_238   C2   CAS10 #238 Vis halluc of people                         -- Same --
+         CAS_239   C2   CAS10 #239 Aud halluc are voices                        -- Same --
+         CAS_240   C2   CAS10 #240 Voices threaten him/her                      -- Same --
+         CAS_241   C2   CAS10 #241 Voices aff his/her sup                       -- Same --
+         CAS_242   C2   CAS10 #242 Descr distorted peop/thngs                   -- Same --
+         CAS_243   C2   CAS10 #243 Descr surr as unreal                         -- Same --
+         CAS_244   C2   CAS10 #244 Fearful of losing mind                       -- Same --
+
+         CAS_DIAG  N4   CAS10 #DIAG No. of Primary+Sec Diagnoses   
+
+	 CASY10AGE N8   CAS10 Age at time of CAS				Calculated
+
+	 SUBJECT   N8	CAS10 Unique ID Number					   XXXX
+
+    The CODES below are legal for all NUMERIC variables, unless specifically indicated otherwise.
+                          .       'Dot' Missing
+
+    The CODES below are legal for all CHARACTER variables, unless specifically indicated otherwise.
+                        Blank     ALL SPACES
+
+
+
+
+
+
+
+
+                                               IN FILE: K:\ABC\YEAR10\CAS10\DOC\CODEBOOK.TXT

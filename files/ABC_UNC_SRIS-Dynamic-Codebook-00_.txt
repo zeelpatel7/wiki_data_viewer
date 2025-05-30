@@ -1,0 +1,432 @@
+                                               ABC--AGE 21 SUBJECT YOUTH RISK BEHAVIOR SURVEY
+         September 9, 2009                                    DYNAMIC CODEBOOK                                              Page 1
+                                                                 Version 00
+
+                                                          NO UNIQUE KEYS SPECIFIED
+
+
+         VARIABLE  TYPE      DESCRIPTION                          FORMAT       VALUES
+
+
+         ID        N8   ID                                        Z3.          1, 2, 3,..., 1300
+
+         SRIS_DT   N8   Sub RISK: Instrument Date                 MMDDYY8.     01/01/90 - 03/01/99
+
+         SRIS_1    C2   RISK: 1 How often do you wear seat belt   $RSK1_F.
+                          A                                       A Never
+                          B                                       B Rarely
+                          C                                       C Sometimes
+                          D                                       D Most of the time
+                          E                                       E Always
+
+         SRIS_2    C2   RISK: 2 how many times ride motorcycle?   $RSK2_F.
+                          A                                       A 0 times
+                          B                                       B 1 to 10 times
+                          C                                       C 11 to 20 times
+                          D                                       D 21 to 39 times
+                          E                                       E 40 or more times
+
+         SRIS_3    C2   RISK: 3 wear a helmet-motorcycle?         $RSKHE_F.
+                          A                                       A Did not ride
+                          B                                       B Never
+                          C                                       C Rarely
+                          D                                       D Sometimes
+                          E                                       E Most of time
+                          F                                       F Always
+
+         SRIS_4    C2   RISK: 4 how many times ride a bicycle?    $RSK110F.
+                          A                                       A 0 times
+                          B                                       B 1 to 10
+                          C                                       C 11 to 20
+                          D                                       D 21 to 39
+                          E                                       E 40 +
+
+         SRIS_5    C2   RISK: 5 wear a helmet-bicycle?            $RSKHE_F.
+                          A                                       A Did not ride
+                          B                                       B Never
+                          C                                       C Rarely
+                          D                                       D Sometimes
+                          E                                       E Most of time
+                          F                                       F Always
+
+         SRIS_6    C2   RISK: 6 Ride in car of other drinker?     $RSK123F.
+                          A                                       A 0 times
+                          B                                       B 1 time
+                          C                                       C 2 or 3
+                          D                                       D 4 or 5
+                          E                                       E 6 or more
+         SRIS_7    C2   RISK: 7 Drink and drive?                  $RSK123F.     -- Same --
+
+         SRIS_8    C2   RISK: 8 How many days carry weapon?       $RSKD_F.
+                          A                                       A 0 days
+                          B                                       B 1 day
+                          C                                       C 2 or 3
+                          D                                       D 4 or 5
+                          E                                       E 6 or more
+         SRIS_9    C2   RISK: 9 How many days carry GUN?          $RSKD_F.      -- Same --
+
+
+
+
+           Unless Otherwise Noted, Permitted MISSING Values Are:   .   -AND-  Blank  For Numeric and Char Variables, Respectively
+                                         In File: K:\ABC\AGE21\S_RISK\DOC\SRIS-DYN.00 & SRIS-PCL.00
+                                               ABC--AGE 21 SUBJECT YOUTH RISK BEHAVIOR SURVEY
+         September 9, 2009                                    DYNAMIC CODEBOOK                                              Page 2
+                                                                 Version 00
+
+
+         VARIABLE  TYPE      DESCRIPTION                          FORMAT       VALUES
+
+         SRIS_10   C2   RISK: 10 How many times in fight?         $RSK10_F.
+                          A                                       A 0 times
+                          B                                       B 1 time
+                          C                                       C 2 or 3
+                          D                                       D 4 or 5
+                          E                                       E 6 or 7
+                          F                                       F 8 or 9
+                          G                                       G 10 or 11
+                          H                                       H 12 or more
+
+         SRIS_11   C2   RISK: 11 With whom did you fight?         $RSK11_F.
+                          A                                       A Never
+                          B                                       B Stranger
+                          C                                       C Friend
+                          D                                       D b/gfriend
+                          E                                       E Family member
+                          F                                       F ELSE
+                          G                                       G More than one
+
+         SRIS_12   C2   RISK: 12 How many fights that injured?    $RSK123F.
+                          A                                       A 0 times
+                          B                                       B 1 time
+                          C                                       C 2 or 3
+                          D                                       D 4 or 5
+                          E                                       E 6 or more
+                          F                                       Other
+
+         SRIS_13   C2   RISK: 13 Lifeguard watching you?          $RSK13_F.
+                          A                                       A Did not swim
+                          B                                       B Never
+                          C                                       C Rarely
+                          D                                       D Sometimes
+                          E                                       E Most of the time
+                          F                                       F Always
+
+         SRIS_14   C2   RISK: 14 Consider suicide?                $RSKYN_F.
+                          A                                       A Yes
+                          B                                       B No
+         SRIS_15   C2   RISK: 15 Make plan for suicide?           $RSKYN_F.     -- Same --
+
+         SRIS_16   C2   RISK: 16 Attempt suicide?                 $RSK123F.
+                          A                                       A 0 times
+                          B                                       B 1 time
+                          C                                       C 2 or 3
+                          D                                       D 4 or 5
+                          E                                       E 6 or more
+
+         SRIS_17   C2   RISK: 17 Suicide attempt require doctor?  $RSK17_F.
+                          A                                       A No attempt
+                          B                                       B Yes
+                          C                                       C No
+
+         SRIS_18   C2   RISK: 18 Ever tried smoking?              $RSKYN_F.
+                          A                                       A Yes
+                          B                                       B No
+
+
+
+
+
+
+
+
+           Unless Otherwise Noted, Permitted MISSING Values Are:   .   -AND-  Blank  For Numeric and Char Variables, Respectively
+                                         In File: K:\ABC\AGE21\S_RISK\DOC\SRIS-DYN.00 & SRIS-PCL.00
+                                               ABC--AGE 21 SUBJECT YOUTH RISK BEHAVIOR SURVEY
+         September 9, 2009                                    DYNAMIC CODEBOOK                                              Page 3
+                                                                 Version 00
+
+
+         VARIABLE  TYPE      DESCRIPTION                          FORMAT       VALUES
+
+         SRIS_19   C2   RISK: 19 Your age at 1st smoked cigaret?  $RSKY_F.
+                          A                                       A Never smoked
+                          B                                       B < 9 years old
+                          C                                       C 9 or 10 years
+                          D                                       D 11 or 12 years
+                          E                                       E 13 or 14 years
+                          F                                       F 15 or 16 years
+                          G                                       G 17 or more y
+         SRIS_20   C2   RISK: 20 Age at regular smoking?          $RSKY_F.      -- Same --
+
+         SRIS_21   C2   RISK: 21 How many cigarettes per day?     $RSK21_F.
+                          A                                       A Did not smoke
+                          B                                       B <1
+                          C                                       C  1
+                          D                                       D  2-5
+                          E                                       E  6-10
+                          F                                       F  11-20
+                          G                                       G >20
+
+         SRIS_22   C2   RISK: 22 Try quitting smoking?            $RSK22_F.
+                          A                                       A Did not smoke
+                          B                                       B Yes
+                          C                                       C No
+
+         SRIS_23   C2   RISK: 23 Chew chewing tobacco?            $RSK23_F.
+                          A                                       A Did not use
+                          B                                       B Chewing tob
+                          C                                       C Snuff only
+                          D                                       D Both
+
+         SRIS_24   C2   RISK: 24 Alcohol--Age at begin drinking?  $RSKY_F.
+                          A                                       A Never smoked
+                          B                                       B < 9 years old
+                          C                                       C 9 or 10 years
+                          D                                       D 11 or 12 years
+                          E                                       E 13 or 14 years
+                          F                                       F 15 or 16 years
+                          G                                       G 17 or more y
+
+         SRIS_25   C2   RISK: 25 Alcohol--How many days w drink?  $RSK25_F.
+                          A                                       A 0
+                          B                                       B 1 or 2
+                          C                                       C 3 to 5
+                          D                                       D 6 to 9
+                          E                                       E 10 to 19
+                          F                                       F 20 to 29
+                          G                                       G All 30
+
+         SRIS_26   C2   RISK: 26 Alcohol--Days with 5+ drinks?    $RSK26_F.
+                          A                                       A 0 days
+                          B                                       B 1 day
+                          C                                       C 2 days
+                          D                                       D 3 to 5
+                          E                                       E 6 to 9
+                          F                                       F 10 to 19
+                          G                                       G 20 or more
+
+
+
+
+
+
+
+           Unless Otherwise Noted, Permitted MISSING Values Are:   .   -AND-  Blank  For Numeric and Char Variables, Respectively
+                                         In File: K:\ABC\AGE21\S_RISK\DOC\SRIS-DYN.00 & SRIS-PCL.00
+                                               ABC--AGE 21 SUBJECT YOUTH RISK BEHAVIOR SURVEY
+         September 9, 2009                                    DYNAMIC CODEBOOK                                              Page 4
+                                                                 Version 00
+
+
+         VARIABLE  TYPE      DESCRIPTION                          FORMAT       VALUES
+
+         SRIS_27   C2   RISK: 27 Marijuana-Age when tried?        $RSKY_F.
+                          A                                       A Never smoked
+                          B                                       B < 9 years old
+                          C                                       C 9 or 10 years
+                          D                                       D 11 or 12 years
+                          E                                       E 13 or 14 years
+                          F                                       F 15 or 16 years
+                          G                                       G 17 or more y
+
+         SRIS_28   C2   RISK: 28 Marijuana-Times used in life?    $RSK28_F.
+                          A                                       A 0 times
+                          B                                       B 1 or 2
+                          C                                       C 3 to 9
+                          D                                       D 10 to 19
+                          E                                       E 20 to 39
+                          F                                       F 40 to 99
+                          G                                       G 100 or more
+
+         SRIS_29   C2   RISK: 29 Marijuana-Times used 30 days?    $RSKT_F.
+                          A                                       A 0 times
+                          B                                       B 1 or 2
+                          C                                       C 3 to 9
+                          D                                       D 10 to 19
+                          E                                       E 20 to 39
+                          F                                       F 40 or more
+
+         SRIS_30   C2   RISK: 30 Cocaine-Age when tried ?         $RSKY_F.
+                          A                                       A Never smoked
+                          B                                       B < 9 years old
+                          C                                       C 9 or 10 years
+                          D                                       D 11 or 12 years
+                          E                                       E 13 or 14 years
+                          F                                       F 15 or 16 years
+                          G                                       G 17 or more y
+
+         SRIS_31   C2   RISK: 31 Cocaine-Times used in life?      $RSKT_F.
+                          A                                       A 0 times
+                          B                                       B 1 or 2
+                          C                                       C 3 to 9
+                          D                                       D 10 to 19
+                          E                                       E 20 to 39
+                          F                                       F 40 or more
+         SRIS_32   C2   RISK: 32 Cocaine-Times used in 309 days?  $RSKT_F.      -- Same --
+         SRIS_33   C2   RISK: 33 Cocaine-Times used crack?        $RSKT_F.      -- Same --
+         SRIS_34   C2   RISK: 34 Cocaine-Illegal drugs?           $RSKT_F.      -- Same --
+
+         SRIS_35   C2   RISK: 35 Cocaine-Injectable drugs?        $RSKYN_F.
+                          A                                       A Yes
+                          B                                       B No
+
+         SRIS_BW1  C2   RISK: 37/40 Body Weight-Lose/gain/stay?   $RSKBW1F.
+                          A                                       A Lose wt
+                          B                                       B Gain wt
+                          C                                       C Stay same
+                          D                                       D Not trying
+
+
+
+
+
+
+
+
+           Unless Otherwise Noted, Permitted MISSING Values Are:   .   -AND-  Blank  For Numeric and Char Variables, Respectively
+                                         In File: K:\ABC\AGE21\S_RISK\DOC\SRIS-DYN.00 & SRIS-PCL.00
+                                               ABC--AGE 21 SUBJECT YOUTH RISK BEHAVIOR SURVEY
+         September 9, 2009                                    DYNAMIC CODEBOOK                                              Page 5
+                                                                 Version 00
+
+
+         VARIABLE  TYPE      DESCRIPTION                          FORMAT       VALUES
+
+         SRIS_BW2  C2   RISK: 38/41 Body Weight-dieted/exercised  $RSKBW2F.
+                          A                                       A Not trying
+                          B                                       B Dieted
+                          C                                       C Exercised
+                          D                                       D Exer+dieted
+                          E                                       E Other method
+
+         SRIS_BW3  C2   RISK: 39/42 Body Weight-Vomit/Diet pills  $RSKBW3F.
+                          A                                       A Not trying
+                          B                                       B Vomit
+                          C                                       C Diet pills
+                          D                                       D Vomit+pills
+                          E                                       E Other method
+
+         SRIS_EX   C3   RISK: Examiner's Initials                              <Not DEClared>
+
+         SRIS_FD1  C2   RISK: 40/43 Yesterday's Food-Fruit?       $RSKFD_F.
+                          A                                       A No
+                          B                                       B Once only
+                          C                                       C Twice or more
+         SRIS_FD2  C2   RISK: 41/44 Yesterday's Food-Fruit Juice  $RSKFD_F.     -- Same --
+         SRIS_FD3  C2   RISK: 42/45 Yesterday's Food-Green salad  $RSKFD_F.     -- Same --
+         SRIS_FD4  C2   RISK: 43/46 Yester Food-Cooked vegies     $RSKFD_F.     -- Same --
+         SRIS_FD5  C2   RISK: 44/47 Yester Food-Hamburger?        $RSKFD_F.     -- Same --
+         SRIS_FD6  C2   RISK: 45/48 Yester Food-Potato Chips?     $RSKFD_F.     -- Same --
+         SRIS_FD7  C2   RISK: 46/49 Yesterday's Food-Cookies      $RSKFD_F.     -- Same --
+
+         SRIS_PA1  C2   RISK: 47/50 Physical Activity-Days ?      $RSKPA_F.
+                          A                                       A 0 days
+                          B                                       B 1 day
+                          C                                       C 2 days
+                          D                                       D 3 days
+                          E                                       E 4 days
+                          F                                       F 5 days
+                          G                                       G 6 days
+                          H                                       H 7 days
+
+         SRIS_SX1  C2   RISK: 36 Sex-Age at 1st Intercourse?      $RSKSX1F.
+                          A                                       A Never
+                          B                                       B < 12 yrs
+                          C                                       C 12 yrs
+                          D                                       D 13 yrs
+                          E                                       E 14 yrs
+                          F                                       F 15 yrs
+                          G                                       G 16 yrs
+                          H                                       H 17 yrs or older
+
+         SRIS_SX2  C2   RISK: 37 Sex-Pregnancy prevention?        $RSKSX2F.
+                          A                                       A Never
+                          B                                       B No method
+                          C                                       C B/C pills
+                          D                                       D Condoms
+                          E                                       E Withdrawal
+                          F                                       F Other
+                          G                                       G Not sure
+
+         SRIS_SX3  C2   RISK: 38 Sex-Times pregnant?              $RSKSX3F.
+                          A                                       A 0 times
+                          B                                       B 1 time
+                          C                                       C 2 or more
+                          D                                       D Not sure
+
+
+           Unless Otherwise Noted, Permitted MISSING Values Are:   .   -AND-  Blank  For Numeric and Char Variables, Respectively
+                                         In File: K:\ABC\AGE21\S_RISK\DOC\SRIS-DYN.00 & SRIS-PCL.00
+                                               ABC--AGE 21 SUBJECT YOUTH RISK BEHAVIOR SURVEY
+         September 9, 2009                                    DYNAMIC CODEBOOK                                              Page 6
+                                                                 Version 00
+
+
+         VARIABLE  TYPE      DESCRIPTION                          FORMAT       VALUES
+
+         SRIS_SX4  C2   RISK: 39 Sex-Ever had sex trans disease?  $RSKYN_F.
+                          A                                       A Yes
+                          B                                       B No
+
+         INSTR     C10  Instrument                                             <Not DEClared>
+
+         PROJECT   C12  Project                                                <Not DEClared>
+
+         BATCH     N3   Database version when observation added   Z2.
+
+         UNIQUE    N8   Observation number in added batch          
+
+    The CODES below are legal for all NUMERIC variables, unless specifically indicated otherwise.
+                          .       'Dot' Missing
+
+    The CODES below are legal for all CHARACTER variables, unless specifically indicated otherwise.
+                        Blank     ALL SPACES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           Unless Otherwise Noted, Permitted MISSING Values Are:   .   -AND-  Blank  For Numeric and Char Variables, Respectively
+                                         In File: K:\ABC\AGE21\S_RISK\DOC\SRIS-DYN.00 & SRIS-PCL.00
