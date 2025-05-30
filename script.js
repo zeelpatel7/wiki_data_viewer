@@ -1,11 +1,11 @@
 const sheetConfigs = {
-  "All Tests": { filters: ["Test/Survey:", "Version:", "Type:", "Source", "Study"] },
-  "ABC": { filters: ["Test/Survey:", "Version:"] },
-  "EHS": { filters: ["Test/Survey:","Version:"] },
+  "All Tests": { filters: ["Test/Survey:", "Version:", "Age:", "Type:", "Source", "Study"] },
+  "ABC": { filters: ["Test/Survey:", "Version:", "Age:"] },
+  "EHS": { filters: ["Test/Survey:","Version:", "Age:"] },
   "HSIS": { filters: ["Test/Survey:","Version:"] },
-  "Perry": { filters: ["Test/Survey:","Version:"] },
+  "Perry": { filters: ["Test/Survey:","Version:", "Age:"] },
   "HS FACES": { filters: ["Test/Survey:", "Version:"] },
-  "NFP-M": { filters: ["Test/Survey:","Version:"] },
+  "NFP-M": { filters: ["Test/Survey:","Version:", "Age:"] },
 };
 
 
