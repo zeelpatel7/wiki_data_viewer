@@ -1,13 +1,12 @@
 const sheetConfigs = {
   "All Tests": { filters: ["Test/Survey:", "Version:", "Age:", "Type:", "Source", "Study"] },
   "ABC": { filters: ["Test/Survey:", "Version:", "Age:"] },
-  "EHS": { filters: ["Test/Survey:","Version:", "Age:"] },
-  "HSIS": { filters: ["Test/Survey:","Version:"] },
-  "Perry": { filters: ["Test/Survey:","Version:", "Age:"] },
+  "EHS": { filters: ["Test/Survey:", "Version:", "Age:"] },
+  "HSIS": { filters: ["Test/Survey:", "Version:"] },
+  "Perry": { filters: ["Test/Survey:", "Version:", "Age:"] },
   "HS FACES": { filters: ["Test/Survey:", "Version:"] },
-  "NFP-M": { filters: ["Test/Survey:","Version:", "Age:"] },
+  "NFP-M": { filters: ["Test/Survey:", "Version:", "Age:"] },
 };
-
 
 fetch("Wiki_AH.xlsx")
   .then(res => res.arrayBuffer())
@@ -37,10 +36,10 @@ fetch("Wiki_AH.xlsx")
         }
       });
 
-      // Remove empty columns
       const columnsToKeep = Object.keys(data[0]).filter(col =>
         data.some(row => row[col] !== "" && row[col] !== null && row[col] !== undefined)
       );
+
       data = data.map((row, idx) => {
         const newRow = {};
         columnsToKeep.forEach(col => {
@@ -48,7 +47,7 @@ fetch("Wiki_AH.xlsx")
           if (value === "⓪") {
             const colIndex = Object.keys(data[0]).indexOf(col);
             const colLetter = String.fromCharCode(65 + colIndex);
-            const key = `${idx + 2}-${colLetter}`; // header is row 1
+            const key = `${idx + 2}-${colLetter}`;
             const filename = hyperlinkMap[key];
             if (filename) {
               value = `<a href="./files/${filename}" target="_blank">📄</a>`;
@@ -72,7 +71,7 @@ fetch("Wiki_AH.xlsx")
           const group = document.createElement("div");
           group.innerHTML = `<label class='form-label d-block'>Study</label>
             <div class='d-flex flex-wrap gap-2'>
-              ${["ABC","Perry","HSIS","NFP","IHDP","EHS"].map(s => `
+              ${["ABC", "Perry", "HSIS", "NFP", "IHDP", "EHS"].map(s => `
                 <div class='form-check'>
                   <input type='checkbox' class='form-check-input' id='${sheetName}_study_${s}' value='${s}'>
                   <label class='form-check-label' for='${sheetName}_study_${s}'>${s}</label>
@@ -80,7 +79,7 @@ fetch("Wiki_AH.xlsx")
               `).join("")}
             </div>`;
           filterInputs["Study"] = () => {
-            return ["ABC","Perry","HSIS","NFP","IHDP","EHS"].filter(s =>
+            return ["ABC", "Perry", "HSIS", "NFP", "IHDP", "EHS"].filter(s =>
               document.getElementById(`${sheetName}_study_${s}`)?.checked
             );
           };
@@ -112,14 +111,17 @@ fetch("Wiki_AH.xlsx")
       table.id = `${sheetName.replace(/[^a-zA-Z0-9]/g, '_')}_table`;
       tableWrapper.appendChild(table);
       container.appendChild(tableWrapper);
-
       document.getElementById("sheetContent").appendChild(container);
 
-      const scrollBar = document.createElement("div");
-      scrollBar.className = "custom-scrollbar-container";
-      scrollBar.id = `${sheetName.replace(/[^a-zA-Z0-9]/g, '_')}_scrollbar`;
-      scrollBar.innerHTML = `<div class='custom-scrollbar-track'></div>`;
-      document.getElementById("scrollbarsContainer").appendChild(scrollBar);
+      // For "All Tests" only: add fixed horizontal scrollbar
+      let fixedBar;
+      if (sheetName === "All Tests") {
+        fixedBar = document.createElement("div");
+        fixedBar.id = "fixed-scrollbar";
+        fixedBar.className = "fixed-scrollbar";
+        fixedBar.innerHTML = `<div class="scroll-track"></div>`;
+        document.body.appendChild(fixedBar);
+      }
 
       const renderTable = (rows) => {
         const thead = table.querySelector("thead");
@@ -129,21 +131,28 @@ fetch("Wiki_AH.xlsx")
           tbody.innerHTML = "<tr><td colspan='5'>No data to show.</td></tr>";
           return;
         }
+
         const headers = Object.keys(rows[0]);
         thead.innerHTML = `<tr>${headers.map(h => `<th>${h}</th>`).join("")}</tr>`;
         tbody.innerHTML = rows.map(row =>
           `<tr>${headers.map(h => `<td>${row[h] || ""}</td>`).join("")}</tr>`
         ).join("");
 
-        const track = scrollBar.querySelector(".custom-scrollbar-track");
-        track.style.width = `${tableWrapper.scrollWidth}px`;
-        scrollBar.style.display = "block";
-        scrollBar.onscroll = () => tableWrapper.scrollLeft = scrollBar.scrollLeft;
-        tableWrapper.onscroll = () => scrollBar.scrollLeft = tableWrapper.scrollLeft;
+        if (sheetName === "All Tests" && fixedBar) {
+          const scrollTrack = fixedBar.querySelector(".scroll-track");
+          scrollTrack.style.width = `${tableWrapper.scrollWidth}px`;
+
+          fixedBar.onscroll = () => {
+            tableWrapper.scrollLeft = fixedBar.scrollLeft;
+          };
+          tableWrapper.onscroll = () => {
+            fixedBar.scrollLeft = tableWrapper.scrollLeft;
+          };
+        }
       };
 
       const applyFilters = () => {
-        const versioned = data.filter(row => {
+        const filtered = data.filter(row => {
           return config.filters.every(f => {
             if (f === "Study") {
               const studies = filterInputs[f]();
@@ -154,7 +163,7 @@ fetch("Wiki_AH.xlsx")
             }
           });
         });
-        renderTable(versioned);
+        renderTable(filtered);
       };
 
       ["ABC", "Perry", "HSIS", "NFP", "IHDP", "EHS"].forEach(s => {
